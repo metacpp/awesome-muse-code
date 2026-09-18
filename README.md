@@ -72,6 +72,9 @@ Agent configurations, orchestration patterns, reusable workflows, and task-speci
 
 Desktop and web clients, editor extensions, ACP adapters, and other interfaces for working with Muse Code outside its default experience.
 
+- [Helicon](https://helicon.sh/) by [Harjot Singh Rana](https://github.com/HarjjotSinghh) - Free, MIT-licensed desktop and web client for Muse Code. Brings projects, session history, inline diffs, approvals, API-rate cost estimates, and remote-daemon access into one UI; ships installers for Windows and macOS, with Linux available from [source](https://github.com/HarjjotSinghh/helicon).<br>
+  <img src="https://img.shields.io/github/last-commit/HarjjotSinghh/helicon?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/HarjjotSinghh/helicon?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/HarjjotSinghh/helicon?style=flat-square" alt="GitHub stars">
+
 ## SDK & Muse Session Protocol
 
 Libraries, protocol tooling, client examples, and integrations built on the [Muse Code SDK](https://github.com/meta-models/muse-code-sdk) or Muse Session Protocol (MSP).
@@ -95,6 +98,8 @@ Sandbox runners, permission and policy tools, audit utilities, and secure deploy
 ## Guides, Tutorials & Examples
 
 High-quality walkthroughs, reference projects, videos, articles, and starter kits. Prefer material that teaches a durable technique rather than merely announcing Muse Code.
+
+- [musecodes.io](https://musecodes.io/) - Unofficial multilingual reference site covering installation, core concepts, pricing, comparisons, cookbook recipes, articles, and release changes. Important details such as pricing and data policies should be checked against Meta's official documentation.
 
 ## Community
 
