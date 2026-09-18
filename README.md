@@ -2,10 +2,8 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <a href="https://github.com/metacpp/awesome-muse-code/stargazers"><img src="https://img.shields.io/github/stars/metacpp/awesome-muse-code?style=social" alt="GitHub stars"></a>
-  <a href="https://github.com/metacpp/awesome-muse-code/commits/master"><img src="https://img.shields.io/github/last-commit/metacpp/awesome-muse-code" alt="Last commit"></a>
   <a href="https://github.com/metacpp/awesome-muse-code/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/metacpp/awesome-muse-code" alt="License"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></a>
 </p>
 
 > A hand-picked collection of tools, extensions, skills, integrations, and learning resources for [Muse Code](https://dev.meta.ai/docs/muse-code).
