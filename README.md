@@ -28,6 +28,7 @@ The ecosystem is young, so the list favors relevance and substance over raw size
   - [Status & Observability](#status--observability)
   - [Session Management & Migration](#session-management--migration)
   - [Sandboxing & Security](#sandboxing--security)
+  - [Packaging & Distribution](#packaging--distribution)
 - [Guides, Tutorials & Examples](#guides-tutorials--examples)
 - [Contributing](#contributing)
 - [License](#license)
@@ -140,6 +141,13 @@ Sandbox runners, permission and policy tools, audit utilities, and secure deploy
 
 - [Muse Code Sandbox Kit](https://github.com/shelajev/muse-code-sbx-kit) - Docker Sandbox kit for running the official Muse binary in an isolated environment with a restricted network policy and persistent credentials and sessions.<br>
   <img src="https://img.shields.io/github/last-commit/shelajev/muse-code-sbx-kit?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/shelajev/muse-code-sbx-kit?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/shelajev/muse-code-sbx-kit?style=flat-square" alt="GitHub stars">
+
+### Packaging & Distribution
+
+Distribution packages and installers that make Muse Code available on more platforms.
+
+- [muse-code](https://github.com/Twilight0/muse-code) - Meta's Muse Code agent packaging for Arch Linux (AUR) and Android (Termux ARM64), with session management and legacy CPU support.<br>
+  <img src="https://img.shields.io/github/last-commit/Twilight0/muse-code?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/Twilight0/muse-code?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/Twilight0/muse-code?style=flat-square" alt="GitHub stars">
 
 ## Guides, Tutorials & Examples
 
