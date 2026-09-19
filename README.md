@@ -97,6 +97,9 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 - [muse-acp](https://github.com/BrokkAi/muse-acp) - Dependency-free Rust adapter that connects Muse Code's native session protocol to ACP clients, with documented setup for Zed, IntelliJ IDEA, and other JetBrains IDEs. Preserves Muse sessions, streaming, cancellation, configuration, and approval flows.<br>
   <img src="https://img.shields.io/github/last-commit/BrokkAi/muse-acp?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/BrokkAi/muse-acp?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/BrokkAi/muse-acp?style=flat-square" alt="GitHub stars">
 
+- [Muse Code plugin for Claude Code](https://github.com/rtravellin/muse-code-plugin-cc) - Claude Code marketplace plugin that drives Meta's Muse Code 1.3 from a Claude session: read-only reviews, structured critiques, task delegation to Muse subagents, background runs, and one-way session transfer, all documented with a captured real-session demo.<br>
+  <img src="https://img.shields.io/github/last-commit/rtravellin/muse-code-plugin-cc?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/rtravellin/muse-code-plugin-cc?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/rtravellin/muse-code-plugin-cc?style=flat-square" alt="GitHub stars">
+
 ## SDK & Muse Session Protocol
 
 Libraries, protocol tooling, client examples, and integrations built on the [Muse Code SDK](https://github.com/meta-models/muse-code-sdk) or Muse Session Protocol (MSP).
