@@ -100,6 +100,12 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 - [Muse Code plugin for Claude Code](https://github.com/rtravellin/muse-code-plugin-cc) - Claude Code marketplace plugin that drives Meta's Muse Code 1.3 from a Claude session: read-only reviews, structured critiques, task delegation to Muse subagents, background runs, and one-way session transfer, all documented with a captured real-session demo.<br>
   <img src="https://img.shields.io/github/last-commit/rtravellin/muse-code-plugin-cc?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/rtravellin/muse-code-plugin-cc?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/rtravellin/muse-code-plugin-cc?style=flat-square" alt="GitHub stars">
 
+- [baaz](https://github.com/latekaapi/baaz) - Native macOS client for Muse Code built with gpui (Rust): approvals, questions, plans, and tool output drawn as interface elements rather than printed as terminal text.<br>
+  <img src="https://img.shields.io/github/last-commit/latekaapi/baaz?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/latekaapi/baaz?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/latekaapi/baaz?style=flat-square" alt="GitHub stars">
+
+- [muse-for-opencode](https://github.com/CBannink/muse-for-opencode) - Routes OpenCode coder/reviewer agents through a Muse coding subscription. No server component; requires an authenticated Muse Code installation.<br>
+  <img src="https://img.shields.io/github/last-commit/CBannink/muse-for-opencode?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/CBannink/muse-for-opencode?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/CBannink/muse-for-opencode?style=flat-square" alt="GitHub stars">
+
 ## SDK & Muse Session Protocol
 
 Libraries, protocol tooling, client examples, and integrations built on the [Muse Code SDK](https://github.com/meta-models/muse-code-sdk) or Muse Session Protocol (MSP).
@@ -138,6 +144,9 @@ Tools for finding, inspecting, organizing, and moving coding-agent sessions.
 - [session-migrate](https://github.com/xhluca/session-migrate) - CLI for inspecting and transferring native session transcripts across Muse Code and 17 other coding-agent formats while preserving resumability where the target supports it.<br>
   <img src="https://img.shields.io/github/last-commit/xhluca/session-migrate?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/xhluca/session-migrate?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/xhluca/session-migrate?style=flat-square" alt="GitHub stars">
 
+- [aonia](https://github.com/HarjjotSinghh/aonia) - Named profiles for the Muse Code CLI: keep multiple logins on one machine, run two of them at once, and let a project pick which profile it uses.<br>
+  <img src="https://img.shields.io/github/last-commit/HarjjotSinghh/aonia?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/HarjjotSinghh/aonia?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/HarjjotSinghh/aonia?style=flat-square" alt="GitHub stars">
+
 ### Sandboxing & Security
 
 Sandbox runners, permission and policy tools, audit utilities, and secure deployment patterns for agent-generated code and tool calls.
@@ -151,6 +160,9 @@ Distribution packages and installers that make Muse Code available on more platf
 
 - [muse-code](https://github.com/Twilight0/muse-code) - Meta's Muse Code agent packaging for Arch Linux (AUR) and Android (Termux ARM64), with session management and legacy CPU support.<br>
   <img src="https://img.shields.io/github/last-commit/Twilight0/muse-code?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/Twilight0/muse-code?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/Twilight0/muse-code?style=flat-square" alt="GitHub stars">
+
+- [termux-repo](https://github.com/Twilight0/termux-repo) - Custom Termux APT repository packaging muse-code alongside other CLI tools (wrangler, opencode, antigravity-cli, oh-my-pi).<br>
+  <img src="https://img.shields.io/github/last-commit/Twilight0/termux-repo?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/Twilight0/termux-repo?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/Twilight0/termux-repo?style=flat-square" alt="GitHub stars">
 
 ## Guides, Tutorials & Examples
 
