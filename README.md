@@ -106,6 +106,9 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 - [muse-for-opencode](https://github.com/CBannink/muse-for-opencode) - Routes OpenCode coder/reviewer agents through a Muse coding subscription. No server component; requires an authenticated Muse Code installation.<br>
   <img src="https://img.shields.io/github/last-commit/CBannink/muse-for-opencode?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/CBannink/muse-for-opencode?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/CBannink/muse-for-opencode?style=flat-square" alt="GitHub stars">
 
+- [muse-openclaw](https://github.com/stricker67-ai/muse-openclaw) - Setup script and provider config to use Meta's Muse Spark models in OpenClaw authenticated by Muse Code's browser OAuth login, without a separate API key or plugin. Documents how the credential minted by `muse login` works as a Bearer <redacted> the OpenAI-compatible Model API endpoint.<br>
+  <img src="https://img.shields.io/github/last-commit/stricker67-ai/muse-openclaw?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/stricker67-ai/muse-openclaw?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/stricker67-ai/muse-openclaw?style=flat-square" alt="GitHub stars">
+
 ## SDK & Muse Session Protocol
 
 Libraries, protocol tooling, client examples, and integrations built on the [Muse Code SDK](https://github.com/meta-models/muse-code-sdk) or Muse Session Protocol (MSP).
