@@ -78,6 +78,9 @@ Agent configurations, orchestration patterns, reusable workflows, and task-speci
 - [Mjolnir](https://github.com/BrokkAi/mjolnir) - Open-source meta-harness for managing Muse Code and other coding agents with durable sessions, isolated environments, account and quota controls, and remote access from a terminal or web interface.<br>
   <img src="https://img.shields.io/github/last-commit/BrokkAi/mjolnir?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/BrokkAi/mjolnir?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/BrokkAi/mjolnir?style=flat-square" alt="GitHub stars">
 
+- [muse](https://github.com/jellologic/claude-code-muse) - Claude Code plugin that offloads bulk coding work to Muse Code workers in isolated git worktrees. Each worker is supervised by a Claude agent that reads the patch, runs the acceptance check itself, and sends the worker back with defects until the patch passes.<br>
+  <img src="https://img.shields.io/github/last-commit/jellologic/claude-code-muse?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/jellologic/claude-code-muse?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/jellologic/claude-code-muse?style=flat-square" alt="GitHub stars">
+
 ## Clients & Editor Integrations
 
 Desktop and web clients, editor extensions, ACP adapters, and other interfaces for working with Muse Code outside its default experience.
@@ -108,6 +111,9 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 
 - [muse-openclaw](https://github.com/stricker67-ai/muse-openclaw) - Setup script and provider config to use Meta's Muse Spark models in OpenClaw authenticated by Muse Code's browser OAuth login, without a separate API key or plugin. Documents how the credential minted by `muse login` works as a Bearer <redacted> the OpenAI-compatible Model API endpoint.<br>
   <img src="https://img.shields.io/github/last-commit/stricker67-ai/muse-openclaw?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/stricker67-ai/muse-openclaw?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/stricker67-ai/muse-openclaw?style=flat-square" alt="GitHub stars">
+
+- [Muse Code Desktop](https://github.com/srikantmehra57/muse-code) by [srikantmehra57](https://github.com/srikantmehra57) - Native desktop command center (Tauri 2) for the Muse Code CLI: organizes workspaces and sessions, streams agent activity with approvals and reasoning controls, and reviews changed files and diffs. Independent open-source project, not affiliated with Meta; requires the official `muse` CLI plus a Muse Code subscription or API key.<br>
+  <img src="https://img.shields.io/github/last-commit/srikantmehra57/muse-code?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/srikantmehra57/muse-code?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/srikantmehra57/muse-code?style=flat-square" alt="GitHub stars">
 
 ## SDK & Muse Session Protocol
 
