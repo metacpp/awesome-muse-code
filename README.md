@@ -73,6 +73,7 @@ Model Context Protocol servers with documented Muse Code setup or a particularly
 
 - [Muse Code Bridge](https://github.com/danny-hines/muse-code-bridge) - Local MCP bridge and skill collection for consulting, reviewing with, or delegating implementation to Muse Code from Codex and ChatGPT desktop. Supports continued Muse sessions through either a Muse subscription or an explicit API key.<br>
   <img src="https://img.shields.io/github/last-commit/danny-hines/muse-code-bridge?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/danny-hines/muse-code-bridge?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/danny-hines/muse-code-bridge?style=flat-square" alt="GitHub stars">
+- [Statsnet](https://github.com/usenetstate/statsnet-mcp) - Background check any company in the world: registration, executives, courts and finances. Remote: `https://statsnet.co/mcp` · Registry: `io.github.usenetstate/statsnet`
 
 ## Agents & Workflows
 
