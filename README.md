@@ -64,6 +64,9 @@ Installable Muse Code plugins and plugin collections. Prefer entries with clear 
 - [Agentic Control Plane for Muse Code](https://github.com/agentic-control-plane/muse-code-acp-plugin) - Native Muse plugin that policy-checks tool calls before execution, scans outputs afterward, and records decisions in an audit log. Currently tracks Muse's experimental plugin and hook interfaces; interactive sessions fail open with a warning when the control plane is unavailable, while unattended runs fail closed.<br>
   <img src="https://img.shields.io/github/last-commit/agentic-control-plane/muse-code-acp-plugin?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/agentic-control-plane/muse-code-acp-plugin?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/agentic-control-plane/muse-code-acp-plugin?style=flat-square" alt="GitHub stars">
 
+- [oh-my-musecode](https://github.com/hypery11/oh-my-musecode) - Curated content bundle and thin CLI for Meta Muse Code: 35 skills, 3 slash commands, 8 hooks, an in-binary MCP server, themes, and settings profiles, installed through Muse's own plugin and config surface. Every write into Muse's directories is recorded in an ownership ledger, so `omm uninstall` removes it cleanly.<br>
+  <img src="https://img.shields.io/github/last-commit/hypery11/oh-my-musecode?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/hypery11/oh-my-musecode?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/hypery11/oh-my-musecode?style=flat-square" alt="GitHub stars">
+
 ## MCP Servers
 
 Model Context Protocol servers with documented Muse Code setup or a particularly strong fit for coding workflows. General-purpose MCP servers should be included only when the Muse-specific integration is clear.
@@ -80,6 +83,9 @@ Agent configurations, orchestration patterns, reusable workflows, and task-speci
 
 - [muse](https://github.com/jellologic/claude-code-muse) - Claude Code plugin that offloads bulk coding work to Muse Code workers in isolated git worktrees. Each worker is supervised by a Claude agent that reads the patch, runs the acceptance check itself, and sends the worker back with defects until the patch passes.<br>
   <img src="https://img.shields.io/github/last-commit/jellologic/claude-code-muse?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/jellologic/claude-code-muse?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/jellologic/claude-code-muse?style=flat-square" alt="GitHub stars">
+
+- [dsh-muse-subagent](https://github.com/Pascapone/dsh-muse-subagent) - DeepSeek Harness bundle that exposes an authenticated Muse Code CLI as a one-shot `subagent_muse` tool. Runs `muse exec --json` in the parent session's workspace with native or WSL execution, approval-mode-never sandbox defaults, and Windows path translation.<br>
+  <img src="https://img.shields.io/github/last-commit/Pascapone/dsh-muse-subagent?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/Pascapone/dsh-muse-subagent?style=flat-square" alt="GitHub stars">
 
 ## Clients & Editor Integrations
 
@@ -114,6 +120,9 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 
 - [Muse Code Desktop](https://github.com/srikantmehra57/muse-code) by [srikantmehra57](https://github.com/srikantmehra57) - Native desktop command center (Tauri 2) for the Muse Code CLI: organizes workspaces and sessions, streams agent activity with approvals and reasoning controls, and reviews changed files and diffs. Independent open-source project, not affiliated with Meta; requires the official `muse` CLI plus a Muse Code subscription or API key.<br>
   <img src="https://img.shields.io/github/last-commit/srikantmehra57/muse-code?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/srikantmehra57/muse-code?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/srikantmehra57/muse-code?style=flat-square" alt="GitHub stars">
+
+- [ai-code-interface.el](https://github.com/tninja/ai-code-interface.el) - Unified Emacs interface (MELPA package) for coding-agent CLIs with documented Muse Code support: customizable executable, session resume via `muse resume`, and per-CLI configuration.<br>
+  <img src="https://img.shields.io/github/last-commit/tninja/ai-code-interface.el?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/tninja/ai-code-interface.el?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/tninja/ai-code-interface.el?style=flat-square" alt="GitHub stars">
 
 ## SDK & Muse Session Protocol
 
