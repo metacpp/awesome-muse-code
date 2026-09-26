@@ -74,6 +74,9 @@ Model Context Protocol servers with documented Muse Code setup or a particularly
 - [Muse Code Bridge](https://github.com/danny-hines/muse-code-bridge) - Local MCP bridge and skill collection for consulting, reviewing with, or delegating implementation to Muse Code from Codex and ChatGPT desktop. Supports continued Muse sessions through either a Muse subscription or an explicit API key.<br>
   <img src="https://img.shields.io/github/last-commit/danny-hines/muse-code-bridge?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/danny-hines/muse-code-bridge?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/danny-hines/muse-code-bridge?style=flat-square" alt="GitHub stars">
 
+- [Muse-Code-Bridge-plugin](https://github.com/stts0919/Muse-Code-Bridge-plugin) - Independent community skill and local MCP plugin that runs an account-authenticated Muse Code session (via `muse serve`) from a Codex conversation: retained workspace sessions, explicit approval handling, and a subscription usage monitor. Strips key-bearing env vars from the Muse child process and refuses model turns until Muse reports an account login.<br>
+  <img src="https://img.shields.io/github/last-commit/stts0919/Muse-Code-Bridge-plugin?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/stts0919/Muse-Code-Bridge-plugin?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/stts0919/Muse-Code-Bridge-plugin?style=flat-square" alt="GitHub stars">
+
 ## Agents & Workflows
 
 Agent configurations, orchestration patterns, reusable workflows, and task-specific setups that are tested with Muse Code.
@@ -93,6 +96,9 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 
 - [Helicon](https://helicon.sh/) by [Harjot Singh Rana](https://github.com/HarjjotSinghh) - Free, MIT-licensed desktop and web client for Muse Code. Brings projects, session history, inline diffs, approvals, API-rate cost estimates, and remote-daemon access into one UI; ships installers for Windows and macOS, with Linux available from [source](https://github.com/HarjjotSinghh/helicon).<br>
   <img src="https://img.shields.io/github/last-commit/HarjjotSinghh/helicon?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/HarjjotSinghh/helicon?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/HarjjotSinghh/helicon?style=flat-square" alt="GitHub stars">
+
+- [Ancilla](https://github.com/aleff-ferreira/ancilla) - Open-source desktop and web companion for Meta's Muse Code CLI: groups agent threads by project folder and lets you read, resume, steer, and approve them without the terminal UI, talking to the local `muse` CLI over the Muse Session Protocol with state in a local SQLite file. MIT-licensed fork of Helicon, unaffiliated with Meta.<br>
+  <img src="https://img.shields.io/github/last-commit/aleff-ferreira/ancilla?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/aleff-ferreira/ancilla?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/aleff-ferreira/ancilla?style=flat-square" alt="GitHub stars">
 
 - [mortiφ](https://github.com/Aeroknight786/mortiphi) - Focused local browser GUI for an existing Muse Code installation. Supports projects and sessions, queued or steered tasks, approvals, model and permission settings, file references, and working-tree changes while leaving Muse as the source of truth.<br>
   <img src="https://img.shields.io/github/last-commit/Aeroknight786/mortiphi?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/Aeroknight786/mortiphi?style=flat-square" alt="GitHub stars">
@@ -123,6 +129,9 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 
 - [Muse Code Desktop](https://github.com/srikantmehra57/muse-code) by [srikantmehra57](https://github.com/srikantmehra57) - Native desktop command center (Tauri 2) for the Muse Code CLI: organizes workspaces and sessions, streams agent activity with approvals and reasoning controls, and reviews changed files and diffs. Independent open-source project, not affiliated with Meta; requires the official `muse` CLI plus a Muse Code subscription or API key.<br>
   <img src="https://img.shields.io/github/last-commit/srikantmehra57/muse-code?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/srikantmehra57/muse-code?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/srikantmehra57/muse-code?style=flat-square" alt="GitHub stars">
+
+- [muse-desktop](https://github.com/EtienneLescot/muse-desktop) by [EtienneLescot](https://github.com/EtienneLescot) - Desktop app for Meta's Muse Code coding agent with opt-in computer use: lets it see the screen and drive Windows apps. Works with the installed `muse` CLI.<br>
+  <img src="https://img.shields.io/github/last-commit/EtienneLescot/muse-desktop?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/EtienneLescot/muse-desktop?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/EtienneLescot/muse-desktop?style=flat-square" alt="GitHub stars">
 
 - [ai-code-interface.el](https://github.com/tninja/ai-code-interface.el) - Unified Emacs interface (MELPA package) for coding-agent CLIs with documented Muse Code support: customizable executable, session resume via `muse resume`, and per-CLI configuration.<br>
   <img src="https://img.shields.io/github/last-commit/tninja/ai-code-interface.el?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/tninja/ai-code-interface.el?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/tninja/ai-code-interface.el?style=flat-square" alt="GitHub stars">
