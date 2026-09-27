@@ -136,6 +136,9 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 - [ai-code-interface.el](https://github.com/tninja/ai-code-interface.el) - Unified Emacs interface (MELPA package) for coding-agent CLIs with documented Muse Code support: customizable executable, session resume via `muse resume`, and per-CLI configuration.<br>
   <img src="https://img.shields.io/github/last-commit/tninja/ai-code-interface.el?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/tninja/ai-code-interface.el?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/tninja/ai-code-interface.el?style=flat-square" alt="GitHub stars">
 
+- [Muse Code Desktop](https://github.com/bcnissley/muse-code-desktop) by [bcnissley](https://github.com/bcnissley) - Windows desktop app (Tauri 2 + React) hosting the Muse Code CLI: chat-style composer that streams `muse exec --json` events into chat bubbles, an embedded real pseudoterminal drawer for the full interactive CLI (including its login flow), tool timeline, voice input, and a side-by-side Muse (`muse.ai`) panel. Dark mode only.<br>
+  <img src="https://img.shields.io/github/last-commit/bcnissley/muse-code-desktop?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/bcnissley/muse-code-desktop?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/bcnissley/muse-code-desktop?style=flat-square" alt="GitHub stars">
+
 ## SDK & Muse Session Protocol
 
 Libraries, protocol tooling, client examples, and integrations built on the [Muse Code SDK](https://github.com/meta-models/muse-code-sdk) or Muse Session Protocol (MSP).
