@@ -209,6 +209,8 @@ High-quality walkthroughs, reference projects, videos, articles, and starter kit
 - [Meta Model API Cookbook: Muse Code](https://github.com/dadaccai/meta-model-cookbook/tree/main/04_muse_code) - Ten end-to-end recipes for auditable sessions, deterministic replay, staged approvals, contained execution, immutable guardrails, subagent fan-out, goal tracking, bundled skills, scheduled work, and side chats.<br>
   <img src="https://img.shields.io/github/last-commit/dadaccai/meta-model-cookbook?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/dadaccai/meta-model-cookbook?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/dadaccai/meta-model-cookbook?style=flat-square" alt="GitHub stars">
 
+- [Muse Code Tutorial: Build with Meta's Terminal Coding Agent](https://medium.com/@adityasavaliya/meta-muse-code-tutorial-build-with-metas-terminal-coding-agent-and-openai-compatible-model-api-cb8bf5e124f5) - Practical developer guide: install and authenticate Muse Code, run a repository-level feature with tests, multi-agent execution, sandbox and approval model, call Muse Spark from Python via the OpenAI-compatible Meta Model API, and the Oracle Marketplace access path.
+
 ## Contributing
 
 Pull requests are welcome. A good addition should be directly useful to Muse Code users, publicly accessible, clearly documented, and placed in the most specific category that fits.
