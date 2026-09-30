@@ -139,6 +139,9 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 - [Muse Code Desktop](https://github.com/bcnissley/muse-code-desktop) by [bcnissley](https://github.com/bcnissley) - Windows desktop app (Tauri 2 + React) hosting the Muse Code CLI: chat-style composer that streams `muse exec --json` events into chat bubbles, an embedded real pseudoterminal drawer for the full interactive CLI (including its login flow), tool timeline, voice input, and a side-by-side Muse (`muse.ai`) panel. Dark mode only.<br>
   <img src="https://img.shields.io/github/last-commit/bcnissley/muse-code-desktop?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/bcnissley/muse-code-desktop?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/bcnissley/muse-code-desktop?style=flat-square" alt="GitHub stars">
 
+- [Muse Desktop](https://github.com/artfckt/muse-code-desktop) by [artfckt](https://github.com/artfckt) - Modern desktop workspace powered by the installed Muse Code through the official Muse SDK: reuses the `muse` CLI's own credential backend after `muse login` (credentials never copied into the renderer), streams conversations with model and reasoning controls, and packages Windows as the primary target.<br>
+  <img src="https://img.shields.io/github/last-commit/artfckt/muse-code-desktop?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/artfckt/muse-code-desktop?style=flat-square" alt="GitHub stars">
+
 ## SDK & Muse Session Protocol
 
 Libraries, protocol tooling, client examples, and integrations built on the [Muse Code SDK](https://github.com/meta-models/muse-code-sdk) or Muse Session Protocol (MSP).
@@ -166,6 +169,9 @@ Status lines, session activity indicators, usage views, and other tools that mak
 
 - [herdr-muse](https://github.com/akshat12/herdr-muse) - Herdr integration that maps Muse lifecycle hooks to idle, working, blocked, and completed terminal-pane states. Includes crash recovery safeguards and does not let subagent events overwrite the lead session's status.<br>
   <img src="https://img.shields.io/github/last-commit/akshat12/herdr-muse?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/akshat12/herdr-muse?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/akshat12/herdr-muse?style=flat-square" alt="GitHub stars">
+
+- [pinta-musecode](https://github.com/pinta-ai/pinta-musecode) - Adapter that forwards Meta Muse Code lifecycle hook events to an OTLP collector, with optional guard decisions that can cancel a live turn. Telemetry and blocking verified end to end against `muse 0.1.0-R708.1`; enforcement is off by default.<br>
+  <img src="https://img.shields.io/github/last-commit/pinta-ai/pinta-musecode?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/pinta-ai/pinta-musecode?style=flat-square" alt="GitHub stars">
 
 ### Session Management & Migration
 
