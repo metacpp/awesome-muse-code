@@ -142,6 +142,9 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 - [Muse Desktop](https://github.com/artfckt/muse-code-desktop) by [artfckt](https://github.com/artfckt) - Modern desktop workspace powered by the installed Muse Code through the official Muse SDK: reuses the `muse` CLI's own credential backend after `muse login` (credentials never copied into the renderer), streams conversations with model and reasoning controls, and packages Windows as the primary target.<br>
   <img src="https://img.shields.io/github/last-commit/artfckt/muse-code-desktop?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/artfckt/muse-code-desktop?style=flat-square" alt="GitHub stars">
 
+- [MuseDesk](https://github.com/atameric/musedesk) by [atameric](https://github.com/atameric) - Unofficial macOS desktop client for the official `muse` CLI, speaking its client-built protocol (MSP over `muse serve` stdio): streaming markdown chat, tool-call visibility, session history shared with the terminal, screenshot attachments, and model / reasoning-effort / approval controls. Unaffiliated with Meta; stores no credentials, bundles no binaries, and phones nothing home.<br>
+  <img src="https://img.shields.io/github/last-commit/atameric/musedesk?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/atameric/musedesk?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/atameric/musedesk?style=flat-square" alt="GitHub stars">
+
 ## SDK & Muse Session Protocol
 
 Libraries, protocol tooling, client examples, and integrations built on the [Muse Code SDK](https://github.com/meta-models/muse-code-sdk) or Muse Session Protocol (MSP).
@@ -151,6 +154,11 @@ Libraries, protocol tooling, client examples, and integrations built on the [Mus
 - [MSP Method Reference](https://meta-models.github.io/muse-code-sdk/next/generated/msp/methods/) - Generated reference for protocol methods and notifications.
 - [TypeScript SDK Reference](https://meta-models.github.io/muse-code-sdk/next/generated/sdk/) - Generated API reference for `@muse-code/sdk`.
 - [SDK Cookbook](https://meta-models.github.io/muse-code-sdk/next/cookbook/) - Executable recipes for common client and session workflows.
+- [Mousagetes (m8s)](https://github.com/MTG-Thomas/Mousagetes) by [MTG-Thomas](https://github.com/MTG-Thomas) - Thin local supervisor for live Muse coding sessions over MSP (`muse serve`): owns one serve host behind a JSON-lines control API on a Unix socket; launches lanes, queues prompts, watches events, and tracks approvals and user-input blockers. Covers all 51 MSP schema methods, plus a claim/heartbeat/intent bus and a board-to-lane compiler with deterministic priority arbitration.<br>
+  <img src="https://img.shields.io/github/last-commit/MTG-Thomas/Mousagetes?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/MTG-Thomas/Mousagetes?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/MTG-Thomas/Mousagetes?style=flat-square" alt="GitHub stars">
+
+- [Muse Code issues from a headless MSP integration](https://github.com/relux-works/muse-issues) by [relux-works](https://github.com/relux-works) - Maintained field log of problems found while embedding `muse serve` as a headless, goal-driven backend: observed behavior per build, reproduction steps, what each issue blocks for a client, the workaround in use, and what would unblock it.<br>
+  <img src="https://img.shields.io/github/last-commit/relux-works/muse-issues?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/relux-works/muse-issues?style=flat-square" alt="GitHub stars">
 
 ## Model Providers & Proxies
 
