@@ -67,6 +67,9 @@ Installable Muse Code plugins and plugin collections. Prefer entries with clear 
 - [oh-my-musecode](https://github.com/hypery11/oh-my-musecode) - Curated content bundle and thin CLI for Meta Muse Code: 35 skills, 3 slash commands, 8 hooks, an in-binary MCP server, themes, and settings profiles, installed through Muse's own plugin and config surface. Every write into Muse's directories is recorded in an ownership ledger, so `omm uninstall` removes it cleanly.<br>
   <img src="https://img.shields.io/github/last-commit/hypery11/oh-my-musecode?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/hypery11/oh-my-musecode?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/hypery11/oh-my-musecode?style=flat-square" alt="GitHub stars">
 
+- [Happy Memes](https://github.com/slopus/happy-meme-plugin) - Skills-only plugin that turns a news story, launch, or everyday moment into a postable image meme, with a Muse Code manifest and marketplace install via Muse's experimental plugin system.<br>
+  <img src="https://img.shields.io/github/last-commit/slopus/happy-meme-plugin?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/slopus/happy-meme-plugin?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/slopus/happy-meme-plugin?style=flat-square" alt="GitHub stars">
+
 ## MCP Servers
 
 Model Context Protocol servers with documented Muse Code setup or a particularly strong fit for coding workflows. General-purpose MCP servers should be included only when the Muse-specific integration is clear.
