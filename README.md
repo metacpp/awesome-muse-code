@@ -184,6 +184,9 @@ Status lines, session activity indicators, usage views, and other tools that mak
 - [pinta-musecode](https://github.com/pinta-ai/pinta-musecode) - Adapter that forwards Meta Muse Code lifecycle hook events to an OTLP collector, with optional guard decisions that can cancel a live turn. Telemetry and blocking verified end to end against `muse 0.1.0-R708.1`; enforcement is off by default.<br>
   <img src="https://img.shields.io/github/last-commit/pinta-ai/pinta-musecode?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/pinta-ai/pinta-musecode?style=flat-square" alt="GitHub stars">
 
+- [AI Usage Monitor](https://github.com/jig21nesh/usage-monitor-app) - macOS menu bar app that shows Muse Code subscription usage (5-hour and weekly windows, reset times and plan name) alongside Claude, Codex, Grok, Copilot, Cursor and OpenCode Go, reading the `muse login` credential and polling the usage endpoint at most every 15 minutes.<br>
+  <img src="https://img.shields.io/github/last-commit/jig21nesh/usage-monitor-app?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/jig21nesh/usage-monitor-app?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/jig21nesh/usage-monitor-app?style=flat-square" alt="GitHub stars">
+
 ### Session Management & Migration
 
 Tools for finding, inspecting, organizing, and moving coding-agent sessions.
