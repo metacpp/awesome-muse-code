@@ -90,6 +90,9 @@ Agent configurations, orchestration patterns, reusable workflows, and task-speci
 - [muse](https://github.com/jellologic/claude-code-muse) - Claude Code plugin that offloads bulk coding work to Muse Code workers in isolated git worktrees. Each worker is supervised by a Claude agent that reads the patch, runs the acceptance check itself, and sends the worker back with defects until the patch passes.<br>
   <img src="https://img.shields.io/github/last-commit/jellologic/claude-code-muse?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/jellologic/claude-code-muse?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/jellologic/claude-code-muse?style=flat-square" alt="GitHub stars">
 
+- [clawmuse](https://github.com/codezzium/clawmuse) - Claude Code plugin that hands research and test runs to Muse (the `muse` CLI) so Claude spends fewer tokens. A `bin/muse-ask` helper runs `muse exec --json` headless and returns only the final report, while hooks and skills govern when Claude delegates.<br>
+  <img src="https://img.shields.io/github/last-commit/codezzium/clawmuse?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/codezzium/clawmuse?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/codezzium/clawmuse?style=flat-square" alt="GitHub stars">
+
 - [dsh-muse-subagent](https://github.com/Pascapone/dsh-muse-subagent) - DeepSeek Harness bundle that exposes an authenticated Muse Code CLI as a one-shot `subagent_muse` tool. Runs `muse exec --json` in the parent session's workspace with native or WSL execution, approval-mode-never sandbox defaults, and Windows path translation.<br>
   <img src="https://img.shields.io/github/last-commit/Pascapone/dsh-muse-subagent?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/Pascapone/dsh-muse-subagent?style=flat-square" alt="GitHub stars">
 
@@ -145,6 +148,12 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 - [Muse Desktop](https://github.com/artfckt/muse-code-desktop) by [artfckt](https://github.com/artfckt) - Modern desktop workspace powered by the installed Muse Code through the official Muse SDK: reuses the `muse` CLI's own credential backend after `muse login` (credentials never copied into the renderer), streams conversations with model and reasoning controls, and packages Windows as the primary target.<br>
   <img src="https://img.shields.io/github/last-commit/artfckt/muse-code-desktop?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/artfckt/muse-code-desktop?style=flat-square" alt="GitHub stars">
 
+- [hermes-muse-code](https://github.com/TheStreamCode/hermes-muse-code) - Hermes Agent plugin that runs Meta Muse Spark models billed to the Muse Code monthly subscription. Reuses the `muse` CLI OAuth login to mint an account-bound inference key, so subscribers are not metered per token on top of the subscription.<br>
+  <img src="https://img.shields.io/github/last-commit/TheStreamCode/hermes-muse-code?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/TheStreamCode/hermes-muse-code?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/TheStreamCode/hermes-muse-code?style=flat-square" alt="GitHub stars">
+
+- [Musician](https://github.com/cre-tus/Musician) - Desktop app for the Muse Code CLI: thread chat with session persistence driven by the existing CLI login, with no API keys required. Connects through `@muse-code/sdk` → MSP → `muse serve`, with automatic fallback to `muse exec`.<br>
+  <img src="https://img.shields.io/github/last-commit/cre-tus/Musician?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/cre-tus/Musician?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/cre-tus/Musician?style=flat-square" alt="GitHub stars">
+
 - [MuseDesk](https://github.com/atameric/musedesk) by [atameric](https://github.com/atameric) - Unofficial macOS desktop client for the official `muse` CLI, speaking its client-built protocol (MSP over `muse serve` stdio): streaming markdown chat, tool-call visibility, session history shared with the terminal, screenshot attachments, and model / reasoning-effort / approval controls. Unaffiliated with Meta; stores no credentials, bundles no binaries, and phones nothing home.<br>
   <img src="https://img.shields.io/github/last-commit/atameric/musedesk?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/atameric/musedesk?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/atameric/musedesk?style=flat-square" alt="GitHub stars">
 
@@ -169,6 +178,9 @@ Adapters and local proxies that connect the Muse Code harness to alternative mod
 
 - [muse-shim](https://github.com/luckeyfaraday/muse-shim) - Dependency-free Python loopback proxy that lets Muse Code use Codex OAuth, the Claude Code CLI, OpenRouter, and OpenAI-compatible Responses APIs. Alternative models appear in Muse's built-in `/model` menu without modifying Muse itself.<br>
   <img src="https://img.shields.io/github/last-commit/luckeyfaraday/muse-shim?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/luckeyfaraday/muse-shim?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/luckeyfaraday/muse-shim?style=flat-square" alt="GitHub stars">
+
+- [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) - OpenAI/Gemini/Claude/Codex-compatible proxy that wraps multiple coding-agent subscriptions behind a unified endpoint: Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, and Devin. Supports Muse Code accounts through Meta login and Meta Model API keys.<br>
+  <img src="https://img.shields.io/github/last-commit/router-for-me/CLIProxyAPI?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/router-for-me/CLIProxyAPI?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=flat-square" alt="GitHub stars">
 
 ## Developer Tools
 
@@ -230,6 +242,9 @@ High-quality walkthroughs, reference projects, videos, articles, and starter kit
   <img src="https://img.shields.io/github/last-commit/dadaccai/meta-model-cookbook?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/dadaccai/meta-model-cookbook?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/dadaccai/meta-model-cookbook?style=flat-square" alt="GitHub stars">
 
 - [Muse Code Tutorial: Build with Meta's Terminal Coding Agent](https://medium.com/@adityasavaliya/meta-muse-code-tutorial-build-with-metas-terminal-coding-agent-and-openai-compatible-model-api-cb8bf5e124f5) - Practical developer guide: install and authenticate Muse Code, run a repository-level feature with tests, multi-agent execution, sandbox and approval model, call Muse Spark from Python via the OpenAI-compatible Meta Model API, and the Oracle Marketplace access path.
+
+- [Coding Workers (Hermes + 9Router)](https://github.com/leekyoung9x/coding-workers-docs) - Community documentation for a Discord-driven orchestrator that fans work out to dedicated coding-agent CLIs, including the Muse Code CLI via `muse-shim` on 9Router/OpenRouter, with per-agent skills and MCP tool sets. Written in Vietnamese.<br>
+  <img src="https://img.shields.io/github/last-commit/leekyoung9x/coding-workers-docs?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/leekyoung9x/coding-workers-docs?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/leekyoung9x/coding-workers-docs?style=flat-square" alt="GitHub stars">
 
 ## Contributing
 
