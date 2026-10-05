@@ -29,6 +29,7 @@ The ecosystem is young, so the list favors relevance and substance over raw size
   - [Session Management & Migration](#session-management--migration)
   - [Sandboxing & Security](#sandboxing--security)
   - [Packaging & Distribution](#packaging--distribution)
+- [Network & Connectivity](#network--connectivity)
 - [Guides, Tutorials & Examples](#guides-tutorials--examples)
 - [Contributing](#contributing)
 - [License](#license)
@@ -157,6 +158,9 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 - [MuseDesk](https://github.com/atameric/musedesk) by [atameric](https://github.com/atameric) - Unofficial macOS desktop client for the official `muse` CLI, speaking its client-built protocol (MSP over `muse serve` stdio): streaming markdown chat, tool-call visibility, session history shared with the terminal, screenshot attachments, and model / reasoning-effort / approval controls. Unaffiliated with Meta; stores no credentials, bundles no binaries, and phones nothing home.<br>
   <img src="https://img.shields.io/github/last-commit/atameric/musedesk?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/atameric/musedesk?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/atameric/musedesk?style=flat-square" alt="GitHub stars">
 
+- [Muse Code for Copilot](https://github.com/zelosleone/Muse-Code-For-Copilot) - Unofficial VS Code extension that spends a Meta Muse Code subscription inside GitHub Copilot Chat: sign in once through the browser, then Muse models and reasoning-effort levels appear in Copilot's model picker with live model metadata from Meta. No API key needed.<br>
+  <img src="https://img.shields.io/github/last-commit/zelosleone/Muse-Code-For-Copilot?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/zelosleone/Muse-Code-For-Copilot?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/zelosleone/Muse-Code-For-Copilot?style=flat-square" alt="GitHub stars">
+
 ## SDK & Muse Session Protocol
 
 Libraries, protocol tooling, client examples, and integrations built on the [Muse Code SDK](https://github.com/meta-models/muse-code-sdk) or Muse Session Protocol (MSP).
@@ -228,6 +232,13 @@ Distribution packages and installers that make Muse Code available on more platf
 
 - [termux-repo](https://github.com/Twilight0/termux-repo) - Custom Termux APT repository packaging muse-code alongside other CLI tools (wrangler, opencode, antigravity-cli, oh-my-pi).<br>
   <img src="https://img.shields.io/github/last-commit/Twilight0/termux-repo?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/Twilight0/termux-repo?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/Twilight0/termux-repo?style=flat-square" alt="GitHub stars">
+
+### Network & Connectivity
+
+Proxy and network-rule helpers for reaching Meta Muse endpoints where direct access is unavailable or unreliable.
+
+- [metamuse-rules](https://github.com/kkykkky/metamuse-rules) - Auto-maintained Surge domain and IP rule sets for Meta Muse endpoints (`*.meta.ai`, `ai.meta.com`, `*.llama.com`) covering Muse Spark, the Model API, and Muse Code, for routing them through a proxy. Updated daily by a scheduled task.<br>
+  <img src="https://img.shields.io/github/last-commit/kkykkky/metamuse-rules?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/kkykkky/metamuse-rules?style=flat-square" alt="GitHub stars">
 
 ## Guides, Tutorials & Examples
 
