@@ -71,6 +71,9 @@ Installable Muse Code plugins and plugin collections. Prefer entries with clear 
 - [Happy Memes](https://github.com/slopus/happy-meme-plugin) - Skills-only plugin that turns a news story, launch, or everyday moment into a postable image meme, with a Muse Code manifest and marketplace install via Muse's experimental plugin system.<br>
   <img src="https://img.shields.io/github/last-commit/slopus/happy-meme-plugin?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/slopus/happy-meme-plugin?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/slopus/happy-meme-plugin?style=flat-square" alt="GitHub stars">
 
+- [HydraDB for Muse Code](https://github.com/hydra-db/hydradb-muse-code-plugin) - Persistent cross-session memory for Muse Code backed by HydraDB: agent-invoked recall through an MCP server and slash-command skills, plus hooks that auto-capture completed turns and sync workspace docs on session lifecycle events. Hooks cannot inject context back to the model, so recall is agent-invoked rather than automatic.<br>
+  <img src="https://img.shields.io/github/last-commit/hydra-db/hydradb-muse-code-plugin?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/hydra-db/hydradb-muse-code-plugin?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/hydra-db/hydradb-muse-code-plugin?style=flat-square" alt="GitHub stars">
+
 ## MCP Servers
 
 Model Context Protocol servers with documented Muse Code setup or a particularly strong fit for coding workflows. General-purpose MCP servers should be included only when the Muse-specific integration is clear.
