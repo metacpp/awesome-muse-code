@@ -74,6 +74,9 @@ Installable Muse Code plugins and plugin collections. Prefer entries with clear 
 - [HydraDB for Muse Code](https://github.com/hydra-db/hydradb-muse-code-plugin) - Persistent cross-session memory for Muse Code backed by HydraDB: agent-invoked recall through an MCP server and slash-command skills, plus hooks that auto-capture completed turns and sync workspace docs on session lifecycle events. Hooks cannot inject context back to the model, so recall is agent-invoked rather than automatic.<br>
   <img src="https://img.shields.io/github/last-commit/hydra-db/hydradb-muse-code-plugin?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/hydra-db/hydradb-muse-code-plugin?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/hydra-db/hydradb-muse-code-plugin?style=flat-square" alt="GitHub stars">
 
+- [Mojulo for Muse Code](https://github.com/zombico/mojulo-muse-code) - Native Muse Code plugin (`.muse-plugin/plugin.json` plus a `marketplace.json` catalog entry) that generates deterministic 3D content from conversation through a skill and a pinned local bootstrap of mojulo@3.0.0; verified on Muse Code 1.4.3 with no hosted service involved.<br>
+  <img src="https://img.shields.io/github/last-commit/zombico/mojulo-muse-code?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/zombico/mojulo-muse-code?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/zombico/mojulo-muse-code?style=flat-square" alt="GitHub stars">
+
 ## MCP Servers
 
 Model Context Protocol servers with documented Muse Code setup or a particularly strong fit for coding workflows. General-purpose MCP servers should be included only when the Muse-specific integration is clear.
