@@ -167,6 +167,9 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 - [Muse Code for Copilot](https://github.com/zelosleone/Muse-Code-For-Copilot) - Unofficial VS Code extension that spends a Meta Muse Code subscription inside GitHub Copilot Chat: sign in once through the browser, then Muse models and reasoning-effort levels appear in Copilot's model picker with live model metadata from Meta. No API key needed.<br>
   <img src="https://img.shields.io/github/last-commit/zelosleone/Muse-Code-For-Copilot?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/zelosleone/Muse-Code-For-Copilot?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/zelosleone/Muse-Code-For-Copilot?style=flat-square" alt="GitHub stars">
 
+- [muse-code-desktop](https://github.com/anon5376/muse-code-desktop) by [anon5376](https://github.com/anon5376) - Unofficial native macOS client for the Muse Code CLI, built with SwiftUI on a local CLI transport. MIT-licensed wrapper source, unaffiliated with Meta.<br>
+  <img src="https://img.shields.io/github/last-commit/anon5376/muse-code-desktop?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/anon5376/muse-code-desktop?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/anon5376/muse-code-desktop?style=flat-square" alt="GitHub stars">
+
 ## SDK & Muse Session Protocol
 
 Libraries, protocol tooling, client examples, and integrations built on the [Muse Code SDK](https://github.com/meta-models/muse-code-sdk) or Muse Session Protocol (MSP).
