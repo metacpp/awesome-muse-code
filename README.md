@@ -103,6 +103,12 @@ Agent configurations, orchestration patterns, reusable workflows, and task-speci
 - [dsh-muse-subagent](https://github.com/Pascapone/dsh-muse-subagent) - DeepSeek Harness bundle that exposes an authenticated Muse Code CLI as a one-shot `subagent_muse` tool. Runs `muse exec --json` in the parent session's workspace with native or WSL execution, approval-mode-never sandbox defaults, and Windows path translation.<br>
   <img src="https://img.shields.io/github/last-commit/Pascapone/dsh-muse-subagent?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/Pascapone/dsh-muse-subagent?style=flat-square" alt="GitHub stars">
 
+- [Locust](https://github.com/automatedworkflowllc-design/locust) - Multi-agent team runner on your own machine: Claude Code, Codex, Cursor, Copilot, OpenCode, Antigravity, and Muse Code side by side, each teammate running on the models you pick. Not the load-testing tool; Windows and Mac installers ship from a companion releases repo.<br>
+  <img src="https://img.shields.io/github/last-commit/automatedworkflowllc-design/locust?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/automatedworkflowllc-design/locust?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/automatedworkflowllc-design/locust?style=flat-square" alt="GitHub stars">
+
+- [opencode-delegate](https://github.com/Sighton-GH/opencode-delegate) - Claude Code plugin and marketplace that delegates settled implementation work to opencode's free models (Muse Spark 1.3 by default) in a git worktree: Claude plans and writes the spec, the opencode worker implements, Claude reviews and merges.<br>
+  <img src="https://img.shields.io/github/last-commit/Sighton-GH/opencode-delegate?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/Sighton-GH/opencode-delegate?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/Sighton-GH/opencode-delegate?style=flat-square" alt="GitHub stars">
+
 ## Clients & Editor Integrations
 
 Desktop and web clients, editor extensions, ACP adapters, and other interfaces for working with Muse Code outside its default experience.
