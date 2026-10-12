@@ -77,6 +77,9 @@ Installable Muse Code plugins and plugin collections. Prefer entries with clear 
 - [Mojulo for Muse Code](https://github.com/zombico/mojulo-muse-code) - Native Muse Code plugin (`.muse-plugin/plugin.json` plus a `marketplace.json` catalog entry) that generates deterministic 3D content from conversation through a skill and a pinned local bootstrap of mojulo@3.0.0; verified on Muse Code 1.4.3 with no hosted service involved.<br>
   <img src="https://img.shields.io/github/last-commit/zombico/mojulo-muse-code?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/zombico/mojulo-muse-code?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/zombico/mojulo-muse-code?style=flat-square" alt="GitHub stars">
 
+- [oh-my-musecode](https://github.com/siddicky/oh-my-musecode) - Independent OMC-style gated delivery harness for the Muse Code CLI (`muse`): a `deep-interview → ralplan → ralph` pipeline plus parallel persona `team` subagents and `cancel`, respecting Muse's approval, sandbox, trust and audit model. Ships a native Muse plugin manifest with an npm-installer fallback to `muse skills install` and committed live-binary probe evidence.<br>
+  <img src="https://img.shields.io/github/last-commit/siddicky/oh-my-musecode?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/siddicky/oh-my-musecode?style=flat-square" alt="GitHub stars">
+
 ## MCP Servers
 
 Model Context Protocol servers with documented Muse Code setup or a particularly strong fit for coding workflows. General-purpose MCP servers should be included only when the Muse-specific integration is clear.
@@ -218,6 +221,9 @@ Status lines, session activity indicators, usage views, and other tools that mak
 - [AI Usage Monitor](https://github.com/jig21nesh/usage-monitor-app) - macOS menu bar app that shows Muse Code subscription usage (5-hour and weekly windows, reset times and plan name) alongside Claude, Codex, Grok, Copilot, Cursor and OpenCode Go, reading the `muse login` credential and polling the usage endpoint at most every 15 minutes.<br>
   <img src="https://img.shields.io/github/last-commit/jig21nesh/usage-monitor-app?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/jig21nesh/usage-monitor-app?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/jig21nesh/usage-monitor-app?style=flat-square" alt="GitHub stars">
 
+- [desktop-sense](https://github.com/angletech2026-arch/desktop-sense) - Local daemon (Windows, macOS in beta) that appends live screen context to each agent message: the active window, a 20-minute timeline, visible errors, and the latest screenshot path, with a diff-only scheme keeping follow-ups under ~200 tokens. Works with Muse Code, Claude Code, Codex CLI and Gemini CLI; includes an error radar that runs a background analysis with a fix suggestion and searches GitHub issues, Reddit and Stack Overflow on repeated errors.<br>
+  <img src="https://img.shields.io/github/last-commit/angletech2026-arch/desktop-sense?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/angletech2026-arch/desktop-sense?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/angletech2026-arch/desktop-sense?style=flat-square" alt="GitHub stars">
+
 ### Session Management & Migration
 
 Tools for finding, inspecting, organizing, and moving coding-agent sessions.
@@ -247,6 +253,9 @@ Distribution packages and installers that make Muse Code available on more platf
 
 - [termux-repo](https://github.com/Twilight0/termux-repo) - Custom Termux APT repository packaging muse-code alongside other CLI tools (wrangler, opencode, antigravity-cli, oh-my-pi).<br>
   <img src="https://img.shields.io/github/last-commit/Twilight0/termux-repo?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/Twilight0/termux-repo?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/Twilight0/termux-repo?style=flat-square" alt="GitHub stars">
+
+- [muse-code-linux](https://github.com/NullAITech/muse-code-linux) - Build script that packages Meta's official Muse Code CLI binary into a single-file Linux AppImage: it downloads `muse-x86-linux` from Meta's own release channel at build time, verifies the sha256 against Meta's manifest, and assembles an AppDir with a `.desktop` entry and icon. Ships no Meta binaries; unofficial community packaging, not affiliated with Meta.<br>
+  <img src="https://img.shields.io/github/last-commit/NullAITech/muse-code-linux?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/NullAITech/muse-code-linux?style=flat-square" alt="GitHub stars">
 
 ### Network & Connectivity
 
