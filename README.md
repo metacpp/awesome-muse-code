@@ -80,6 +80,9 @@ Installable Muse Code plugins and plugin collections. Prefer entries with clear 
 - [oh-my-musecode](https://github.com/siddicky/oh-my-musecode) - Independent OMC-style gated delivery harness for the Muse Code CLI (`muse`): a `deep-interview → ralplan → ralph` pipeline plus parallel persona `team` subagents and `cancel`, respecting Muse's approval, sandbox, trust and audit model. Ships a native Muse plugin manifest with an npm-installer fallback to `muse skills install` and committed live-binary probe evidence.<br>
   <img src="https://img.shields.io/github/last-commit/siddicky/oh-my-musecode?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/siddicky/oh-my-musecode?style=flat-square" alt="GitHub stars">
 
+- [muse-code-memory](https://github.com/cbuntingde/muse-code-memory) - Plugin that gives Muse Code automatic cross-session memory: hook-driven capture of durable facts as proposals with approval and expiry, SQLite FTS5 BM25-hybrid RAG recall across global, project-personal, and project-shared scopes, and secret redaction before filing. Ships 4 MCP tools, 8 slash commands, and a CLI on one implementation; zero dependencies, with live verification on Muse 1.4.7 and 197 passing tests reported by the author.<br>
+  <img src="https://img.shields.io/github/last-commit/cbuntingde/muse-code-memory?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/cbuntingde/muse-code-memory?style=flat-square" alt="GitHub stars">
+
 ## MCP Servers
 
 Model Context Protocol servers with documented Muse Code setup or a particularly strong fit for coding workflows. General-purpose MCP servers should be included only when the Muse-specific integration is clear.
@@ -179,6 +182,18 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 - [muse-code-desktop](https://github.com/anon5376/muse-code-desktop) by [anon5376](https://github.com/anon5376) - Unofficial native macOS client for the Muse Code CLI, built with SwiftUI on a local CLI transport. MIT-licensed wrapper source, unaffiliated with Meta.<br>
   <img src="https://img.shields.io/github/last-commit/anon5376/muse-code-desktop?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/anon5376/muse-code-desktop?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/anon5376/muse-code-desktop?style=flat-square" alt="GitHub stars">
 
+- [open-muse](https://github.com/jaylamping/open-muse) - OpenCode plugin that spends a Muse Code subscription inside OpenCode: registers a `muse` provider, runs a small local OpenAI-compatible proxy inside OpenCode, and drives the official `muse serve` host through the Muse Session Protocol, so prompts, streamed replies, reasoning summaries, and tool activity flow back into OpenCode under the CLI's own sign-in with no API key.<br>
+  <img src="https://img.shields.io/github/last-commit/jaylamping/open-muse?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/jaylamping/open-muse?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/jaylamping/open-muse?style=flat-square" alt="GitHub stars">
+
+- [gray-muse-sub](https://github.com/vstaln/gray-muse-sub) - Provider sidecar that exposes Muse Code to Gray (Command Code's agent harness) by relaying turns to the local `muse serve` MSP host: live model listing from the host with no hardcoded fallback, an OpenAI Responses-to-MSP turn relay with SSE streaming, and authentication treated as a `muse login` handshake probe.<br>
+  <img src="https://img.shields.io/github/last-commit/vstaln/gray-muse-sub?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/vstaln/gray-muse-sub?style=flat-square" alt="GitHub stars">
+
+- [Muse Desktop](https://github.com/robzilla1738/muse-desktop) by [Robert Courson](https://github.com/robzilla1738) - Unofficial macOS desktop companion for Muse Code: streams real CLI sessions through the official SDK with the CLI's own approval choices, session search, pinning and Markdown export, Git diffs, voice input via `muse voice transcribe`, and five themes. Signed and notarized DMG releases for Apple Silicon and Intel with Sparkle updates; not affiliated with Meta.<br>
+  <img src="https://img.shields.io/github/last-commit/robzilla1738/muse-desktop?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/robzilla1738/muse-desktop?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/robzilla1738/muse-desktop?style=flat-square" alt="GitHub stars">
+
+- [Muse Code GUI](https://github.com/codegod100/muse-code) - Flutter GUI for Meta's Muse Code SDK organized around projects and threads: a main orchestrator thread plans work and spawns Muse subagents as worker threads that can be followed, messaged, and approved, with streaming replies and expandable tool calls. Sessions run on a cloud host through a relay that bridges WebSocket to `muse serve` over MSP; nothing executes on the local machine.<br>
+  <img src="https://img.shields.io/github/last-commit/codegod100/muse-code?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/codegod100/muse-code?style=flat-square" alt="GitHub stars">
+
 ## SDK & Muse Session Protocol
 
 Libraries, protocol tooling, client examples, and integrations built on the [Muse Code SDK](https://github.com/meta-models/muse-code-sdk) or Muse Session Protocol (MSP).
@@ -256,6 +271,9 @@ Distribution packages and installers that make Muse Code available on more platf
 
 - [muse-code-linux](https://github.com/NullAITech/muse-code-linux) - Build script that packages Meta's official Muse Code CLI binary into a single-file Linux AppImage: it downloads `muse-x86-linux` from Meta's own release channel at build time, verifies the sha256 against Meta's manifest, and assembles an AppDir with a `.desktop` entry and icon. Ships no Meta binaries; unofficial community packaging, not affiliated with Meta.<br>
   <img src="https://img.shields.io/github/last-commit/NullAITech/muse-code-linux?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/NullAITech/muse-code-linux?style=flat-square" alt="GitHub stars">
+
+- [muse-code-flake](https://github.com/ilqqy/muse-code-flake) - Nix flake packaging Meta's Muse Code CLI (`muse`) for NixOS on x86_64-linux and aarch64-linux: the proprietary binary is downloaded from Meta's servers at build time, pinned by hash in `sources.json`, kept current by an auto-update workflow, and sandboxed with bubblewrap. Unofficial; the repository contains no Meta code.<br>
+  <img src="https://img.shields.io/github/last-commit/ilqqy/muse-code-flake?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/ilqqy/muse-code-flake?style=flat-square" alt="GitHub stars">
 
 ### Network & Connectivity
 
