@@ -197,6 +197,9 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 - [Muse Code GUI](https://github.com/codegod100/muse-code) - Flutter GUI for Meta's Muse Code SDK organized around projects and threads: a main orchestrator thread plans work and spawns Muse subagents as worker threads that can be followed, messaged, and approved, with streaming replies and expandable tool calls. Sessions run on a cloud host through a relay that bridges WebSocket to `muse serve` over MSP; nothing executes on the local machine.<br>
   <img src="https://img.shields.io/github/last-commit/codegod100/muse-code?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/codegod100/muse-code?style=flat-square" alt="GitHub stars">
 
+- [Muse Code Space](https://github.com/dreveman/muse-code-space) - Web sidebar and pilot backend for supervising Muse Code agents on a Muse VM: tracks multiple agents by project with live transcripts, tool calls and diffs, notifies when an agent needs attention, and lets agents exchange updates via @name mentions, on desktop or phone.<br>
+  <img src="https://img.shields.io/github/last-commit/dreveman/muse-code-space?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/dreveman/muse-code-space?style=flat-square" alt="GitHub stars">
+
 ## SDK & Muse Session Protocol
 
 Libraries, protocol tooling, client examples, and integrations built on the [Muse Code SDK](https://github.com/meta-models/muse-code-sdk) or Muse Session Protocol (MSP).
