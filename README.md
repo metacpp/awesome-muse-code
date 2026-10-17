@@ -200,6 +200,9 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 - [Muse Code Space](https://github.com/dreveman/muse-code-space) - Web sidebar and pilot backend for supervising Muse Code agents on a Muse VM: tracks multiple agents by project with live transcripts, tool calls and diffs, notifies when an agent needs attention, and lets agents exchange updates via @name mentions, on desktop or phone.<br>
   <img src="https://img.shields.io/github/last-commit/dreveman/muse-code-space?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/dreveman/muse-code-space?style=flat-square" alt="GitHub stars">
 
+- [Muse Code CLI PWA](https://github.com/t4skb0x/muse-code-cli-pwa) - Mobile-first web gateway for remote Muse Code CLI orchestration: dispatch headless `muse exec` tasks from a phone through a Cloudflare Tunnel, with an approve mode that holds diffs in an isolated git worktree for review, a persistent operator chat log, file browsing, a terminal view, and git diff review. Python standard library only.<br>
+  <img src="https://img.shields.io/github/last-commit/t4skb0x/muse-code-cli-pwa?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/t4skb0x/muse-code-cli-pwa?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/t4skb0x/muse-code-cli-pwa?style=flat-square" alt="GitHub stars">
+
 ## SDK & Muse Session Protocol
 
 Libraries, protocol tooling, client examples, and integrations built on the [Muse Code SDK](https://github.com/meta-models/muse-code-sdk) or Muse Session Protocol (MSP).
