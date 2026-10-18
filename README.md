@@ -203,6 +203,9 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 - [Muse Code CLI PWA](https://github.com/t4skb0x/muse-code-cli-pwa) - Mobile-first web gateway for remote Muse Code CLI orchestration: dispatch headless `muse exec` tasks from a phone through a Cloudflare Tunnel, with an approve mode that holds diffs in an isolated git worktree for review, a persistent operator chat log, file browsing, a terminal view, and git diff review. Python standard library only.<br>
   <img src="https://img.shields.io/github/last-commit/t4skb0x/muse-code-cli-pwa?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/t4skb0x/muse-code-cli-pwa?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/t4skb0x/muse-code-cli-pwa?style=flat-square" alt="GitHub stars">
 
+- [Boty](https://github.com/luisjedev/boty) - Native macOS client (SwiftUI) for chatting with Muse Code agents one-to-one or in multi-agent groups, using your own Muse Code subscription through the `muse` CLI: each bot runs its own `muse` process with its own working directory and model, and the app adds Face ID / Touch ID unlock, end-to-end encryption, and QR-code pairing. Interface in Spanish.<br>
+  <img src="https://img.shields.io/github/last-commit/luisjedev/boty?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/luisjedev/boty?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/luisjedev/boty?style=flat-square" alt="GitHub stars">
+
 ## SDK & Muse Session Protocol
 
 Libraries, protocol tooling, client examples, and integrations built on the [Muse Code SDK](https://github.com/meta-models/muse-code-sdk) or Muse Session Protocol (MSP).
