@@ -206,6 +206,9 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 - [Boty](https://github.com/luisjedev/boty) - Native macOS client (SwiftUI) for chatting with Muse Code agents one-to-one or in multi-agent groups, using your own Muse Code subscription through the `muse` CLI: each bot runs its own `muse` process with its own working directory and model, and the app adds Face ID / Touch ID unlock, end-to-end encryption, and QR-code pairing. Interface in Spanish.<br>
   <img src="https://img.shields.io/github/last-commit/luisjedev/boty?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/luisjedev/boty?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/luisjedev/boty?style=flat-square" alt="GitHub stars">
 
+- [Muse Code GUI](https://github.com/refighdev/muse-code-gui-rtl-support) - Desktop and web interface for the Muse Code CLI with first-class right-to-left support for Persian, Arabic and Hebrew: direction is decided per text block, so mixed RTL/LTR messages, lists and tables render correctly while code stays left-to-right. Groups projects and threads by working directory, shows readable approvals and inline diffs with a file viewer, and talks to `muse serve` through `@muse-code/sdk` (MSP) with state in a local SQLite file.<br>
+  <img src="https://img.shields.io/github/last-commit/refighdev/muse-code-gui-rtl-support?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/refighdev/muse-code-gui-rtl-support?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/refighdev/muse-code-gui-rtl-support?style=flat-square" alt="GitHub stars">
+
 ## SDK & Muse Session Protocol
 
 Libraries, protocol tooling, client examples, and integrations built on the [Muse Code SDK](https://github.com/meta-models/muse-code-sdk) or Muse Session Protocol (MSP).
