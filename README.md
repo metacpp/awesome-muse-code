@@ -215,6 +215,9 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 - [Muse Remote](https://github.com/gabsvm/muse-remote) - Unofficial remote companion for Muse Code: a Node.js MSP-to-HTTP bridge plus a mobile-first PWA, with in-progress Kotlin Multiplatform clients for Android and desktop, to browse and resume sessions, send prompts, inspect streamed output, and approve requests from a phone or another machine. Secure access via Tailscale Serve, Cloudflare Access, or LAN pairing with QR-based TLS certificate pinning.<br>
   <img src="https://img.shields.io/github/last-commit/gabsvm/muse-remote?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/gabsvm/muse-remote?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/gabsvm/muse-remote?style=flat-square" alt="GitHub stars">
 
+- [Lascoria](https://github.com/kabudu/lascoria) - Spatial desktop workspace for Muse Code: a canvas map of parallel sessions and their tasks, with an attention queue for questions, approvals and failures, plus transcripts, diffs and test evidence. Built on the official Muse SDK with a Rust supervisor; local control only, with no remote server.<br>
+  <img src="https://img.shields.io/github/last-commit/kabudu/lascoria?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/kabudu/lascoria?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/kabudu/lascoria?style=flat-square" alt="GitHub stars">
+
 ## SDK & Muse Session Protocol
 
 Libraries, protocol tooling, client examples, and integrations built on the [Muse Code SDK](https://github.com/meta-models/muse-code-sdk) or Muse Session Protocol (MSP).
