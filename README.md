@@ -83,6 +83,9 @@ Installable Muse Code plugins and plugin collections. Prefer entries with clear 
 - [muse-code-memory](https://github.com/cbuntingde/muse-code-memory) - Plugin that gives Muse Code automatic cross-session memory: hook-driven capture of durable facts as proposals with approval and expiry, SQLite FTS5 BM25-hybrid RAG recall across global, project-personal, and project-shared scopes, and secret redaction before filing. Ships 4 MCP tools, 8 slash commands, and a CLI on one implementation; zero dependencies, with live verification on Muse 1.4.7 and 197 passing tests reported by the author.<br>
   <img src="https://img.shields.io/github/last-commit/cbuntingde/muse-code-memory?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/cbuntingde/muse-code-memory?style=flat-square" alt="GitHub stars">
 
+- [LitMuse](https://github.com/wjgoarxiv/litmuse) - Adds lit to Muse Code so a request is planned, built with tests and recorded checks, reviewed, and closed with a handoff note. MIT licensed. 39 skills.<br>
+  <img src="https://img.shields.io/github/last-commit/wjgoarxiv/litmuse?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/wjgoarxiv/litmuse?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/wjgoarxiv/litmuse?style=flat-square" alt="GitHub stars">
+
 ## MCP Servers
 
 Model Context Protocol servers with documented Muse Code setup or a particularly strong fit for coding workflows. General-purpose MCP servers should be included only when the Muse-specific integration is clear.
