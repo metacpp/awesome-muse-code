@@ -98,6 +98,9 @@ Installable Muse Code plugins and plugin collections. Prefer entries with clear 
 - [muse-supermemory](https://github.com/supermemoryai/muse-supermemory) - Muse Code plugin for persistent cross-session memory powered by Supermemory: injects past project context at session start through hooks and an MCP proxy, installable from the Supermemory marketplace; requires Muse Code 1.3+ with plugins enabled.<br>
   <img src="https://img.shields.io/github/last-commit/supermemoryai/muse-supermemory?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/supermemoryai/muse-supermemory?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/supermemoryai/muse-supermemory?style=flat-square" alt="GitHub stars">
 
+- [LitMuse](https://github.com/wjgoarxiv/litmuse) - Adds lit to Muse Code so a request is planned, built with tests and recorded checks, reviewed, and closed with a handoff note. MIT licensed. 42 skills.<br>
+  <img src="https://img.shields.io/github/last-commit/wjgoarxiv/litmuse?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/wjgoarxiv/litmuse?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/wjgoarxiv/litmuse?style=flat-square" alt="GitHub stars">
+
 ## MCP Servers
 
 Model Context Protocol servers with documented Muse Code setup or a particularly strong fit for coding workflows. General-purpose MCP servers should be included only when the Muse-specific integration is clear.
