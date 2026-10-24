@@ -115,6 +115,9 @@ Agent configurations, orchestration patterns, reusable workflows, and task-speci
 - [opencode-delegate](https://github.com/Sighton-GH/opencode-delegate) - Claude Code plugin and marketplace that delegates settled implementation work to opencode's free models (Muse Spark 1.3 by default) in a git worktree: Claude plans and writes the spec, the opencode worker implements, Claude reviews and merges.<br>
   <img src="https://img.shields.io/github/last-commit/Sighton-GH/opencode-delegate?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/Sighton-GH/opencode-delegate?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/Sighton-GH/opencode-delegate?style=flat-square" alt="GitHub stars">
 
+- [claude-muse-mentor](https://github.com/sjvrensburg/claude-muse-mentor) - Claude Code plugin and MCP bridge for a mentor loop in which Claude plans and reviews while Muse Code implements: it opens or resumes a headless Muse session via `muse -p` stream-json (session IDs persisted in project state), relays Muse approval requests back to the user through MCP elicitation, and returns the finished diff to Claude for review.<br>
+  <img src="https://img.shields.io/github/last-commit/sjvrensburg/claude-muse-mentor?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/sjvrensburg/claude-muse-mentor?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/sjvrensburg/claude-muse-mentor?style=flat-square" alt="GitHub stars">
+
 ## Clients & Editor Integrations
 
 Desktop and web clients, editor extensions, ACP adapters, and other interfaces for working with Muse Code outside its default experience.
