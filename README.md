@@ -266,6 +266,9 @@ Status lines, session activity indicators, usage views, and other tools that mak
 - [desktop-sense](https://github.com/angletech2026-arch/desktop-sense) - Local daemon (Windows, macOS in beta) that appends live screen context to each agent message: the active window, a 20-minute timeline, visible errors, and the latest screenshot path, with a diff-only scheme keeping follow-ups under ~200 tokens. Works with Muse Code, Claude Code, Codex CLI and Gemini CLI; includes an error radar that runs a background analysis with a fix suggestion and searches GitHub issues, Reddit and Stack Overflow on repeated errors.<br>
   <img src="https://img.shields.io/github/last-commit/angletech2026-arch/desktop-sense?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/angletech2026-arch/desktop-sense?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/angletech2026-arch/desktop-sense?style=flat-square" alt="GitHub stars">
 
+- [meta-benchmark](https://github.com/danphillips-cloud/meta-benchmark) - Local latency benchmark for Muse Code that splits each call into model time and local overhead: a live mode times prompt-to-first-token and prompt-to-done inside the interactive terminal, and a live-bang mode times `muse exec --json` per call, with both modes counting calls the same way so results stay comparable.<br>
+  <img src="https://img.shields.io/github/last-commit/danphillips-cloud/meta-benchmark?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/danphillips-cloud/meta-benchmark?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/danphillips-cloud/meta-benchmark?style=flat-square" alt="GitHub stars">
+
 ### Session Management & Migration
 
 Tools for finding, inspecting, organizing, and moving coding-agent sessions.
