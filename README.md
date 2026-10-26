@@ -96,6 +96,9 @@ Model Context Protocol servers with documented Muse Code setup or a particularly
 - [Muse-Code-Bridge-plugin](https://github.com/stts0919/Muse-Code-Bridge-plugin) - Independent community skill and local MCP plugin that runs an account-authenticated Muse Code session (via `muse serve`) from a Codex conversation: retained workspace sessions, explicit approval handling, and a subscription usage monitor. Strips key-bearing env vars from the Muse child process and refuses model turns until Muse reports an account login.<br>
   <img src="https://img.shields.io/github/last-commit/stts0919/Muse-Code-Bridge-plugin?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/stts0919/Muse-Code-Bridge-plugin?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/stts0919/Muse-Code-Bridge-plugin?style=flat-square" alt="GitHub stars">
 
+- [ori-muse-connector](https://github.com/orgenix-ai/ori-muse-connector) - MCP connector that hands an app idea from a Muse Code session to Ori, Orgenix's hosted app-building service: its `start_app_with_ori` tool returns a one-time link that opens Ori with the idea loaded, and nothing is built or charged until the user signs up in Ori. Built for the Meta Global AI Developer Hackathon; the repo states the public endpoint opens on November 1, 2026, with sign-in and app-status tools still to come.<br>
+  <img src="https://img.shields.io/github/last-commit/orgenix-ai/ori-muse-connector?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/orgenix-ai/ori-muse-connector?style=flat-square" alt="GitHub stars">
+
 ## Agents & Workflows
 
 Agent configurations, orchestration patterns, reusable workflows, and task-specific setups that are tested with Muse Code.
