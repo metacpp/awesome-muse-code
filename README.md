@@ -86,6 +86,15 @@ Installable Muse Code plugins and plugin collections. Prefer entries with clear 
 - [muse-context-persistence](https://github.com/alfonsodg/muse-context-persistence) - Muse Code plugin that re-injects a project's `AGENTS.md` context after session compaction, using a pre/post-compaction two-hook pattern based on the Memwyre persistent-memory pattern, so project rules dropped when older conversation is summarized are restored.<br>
   <img src="https://img.shields.io/github/last-commit/alfonsodg/muse-context-persistence?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/alfonsodg/muse-context-persistence?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/alfonsodg/muse-context-persistence?style=flat-square" alt="GitHub stars">
 
+- [Sparkguard](https://github.com/ReARCLabs/sparkguard) - Muse Code plugin that records rules the user states in plain language during a session, blocks a later tool call that would break one while quoting the original rule and date, and can undo file edits. The author reports captures on Muse Code 1.4.13, 20 passing tests, and 68 of 70 bypass cases blocked.<br>
+  <img src="https://img.shields.io/github/last-commit/ReARCLabs/sparkguard?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/ReARCLabs/sparkguard?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/ReARCLabs/sparkguard?style=flat-square" alt="GitHub stars">
+
+- [Cleanroom](https://github.com/zariffromlatif/muse-cleanroom) - Muse Code plugin that enforces Meta's Agents Rule of Two at runtime through lifecycle hooks: when a session would combine untrusted input, a secret read from a file such as `.env`, and an external action, it tracks the secret through encodings such as base64, hex and URL-encoding and hands the risky step to a fresh subagent that holds no secrets. Built during the Meta Global AI Developer Hackathon.<br>
+  <img src="https://img.shields.io/github/last-commit/zariffromlatif/muse-cleanroom?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/zariffromlatif/muse-cleanroom?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/zariffromlatif/muse-cleanroom?style=flat-square" alt="GitHub stars">
+
+- [AI Handoff](https://github.com/CloudCorpRecords/ai-handoff) - Muse Code plugin that lets Muse Code and Claude Code hand work to each other through one shared append-only `docs/AI_HANDOFF.md` file per repository, instead of the human relaying between them. Ships an MCP server with `handoff_read`, `handoff_append`, `handoff_ask`, `handoff_answer` and `handoff_status` tools, a skill, three slash commands, and scripts that wake the other agent headless to answer open questions.<br>
+  <img src="https://img.shields.io/github/last-commit/CloudCorpRecords/ai-handoff?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/CloudCorpRecords/ai-handoff?style=flat-square" alt="GitHub stars">
+
 ## MCP Servers
 
 Model Context Protocol servers with documented Muse Code setup or a particularly strong fit for coding workflows. General-purpose MCP servers should be included only when the Muse-specific integration is clear.
@@ -98,6 +107,9 @@ Model Context Protocol servers with documented Muse Code setup or a particularly
 
 - [ori-muse-connector](https://github.com/orgenix-ai/ori-muse-connector) - MCP connector that hands an app idea from a Muse Code session to Ori, Orgenix's hosted app-building service: its `start_app_with_ori` tool returns a one-time link that opens Ori with the idea loaded, and nothing is built or charged until the user signs up in Ori. Built for the Meta Global AI Developer Hackathon; the repo states the public endpoint opens on November 1, 2026, with sign-in and app-status tools still to come.<br>
   <img src="https://img.shields.io/github/last-commit/orgenix-ai/ori-muse-connector?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/orgenix-ai/ori-muse-connector?style=flat-square" alt="GitHub stars">
+
+- [Ori for Muse](https://github.com/orgenix-ai/ori-for-muse) - MCP server implementation that hands an app idea from Muse Code to Ori, Orgenix's hosted app-building service: the `start_app_with_ori` tool returns a one-time link that opens Ori with the idea loaded, and the `app_status` tool lists app stage and pending actions after signing in once with `muse mcp login ori`. Built for the Meta Global AI Developer Hackathon; the repo states the hosted endpoint opens on November 1, 2026.<br>
+  <img src="https://img.shields.io/github/last-commit/orgenix-ai/ori-for-muse?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/orgenix-ai/ori-for-muse?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/orgenix-ai/ori-for-muse?style=flat-square" alt="GitHub stars">
 
 ## Agents & Workflows
 
