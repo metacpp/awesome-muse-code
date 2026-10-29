@@ -95,6 +95,9 @@ Installable Muse Code plugins and plugin collections. Prefer entries with clear 
 - [AI Handoff](https://github.com/CloudCorpRecords/ai-handoff) - Muse Code plugin that lets Muse Code and Claude Code hand work to each other through one shared append-only `docs/AI_HANDOFF.md` file per repository, instead of the human relaying between them. Ships an MCP server with `handoff_read`, `handoff_append`, `handoff_ask`, `handoff_answer` and `handoff_status` tools, a skill, three slash commands, and scripts that wake the other agent headless to answer open questions.<br>
   <img src="https://img.shields.io/github/last-commit/CloudCorpRecords/ai-handoff?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/CloudCorpRecords/ai-handoff?style=flat-square" alt="GitHub stars">
 
+- [muse-supermemory](https://github.com/supermemoryai/muse-supermemory) - Muse Code plugin for persistent cross-session memory powered by Supermemory: injects past project context at session start through hooks and an MCP proxy, installable from the Supermemory marketplace; requires Muse Code 1.3+ with plugins enabled.<br>
+  <img src="https://img.shields.io/github/last-commit/supermemoryai/muse-supermemory?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/supermemoryai/muse-supermemory?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/supermemoryai/muse-supermemory?style=flat-square" alt="GitHub stars">
+
 ## MCP Servers
 
 Model Context Protocol servers with documented Muse Code setup or a particularly strong fit for coding workflows. General-purpose MCP servers should be included only when the Muse-specific integration is clear.
@@ -135,6 +138,9 @@ Agent configurations, orchestration patterns, reusable workflows, and task-speci
 
 - [claude-muse-mentor](https://github.com/sjvrensburg/claude-muse-mentor) - Claude Code plugin with a Python bridge daemon for a mentor loop in which Claude plans and reviews while Muse Code implements in one ongoing session: the bridge holds `muse serve` open over MSP on stdio, exposes seven `muse_*` tools to Claude, routes Muse approval requests to Claude or to the user in a `/mentor` pane, and reserves risky commands (secrets, sudo, `git push`, destructive deletes, paths outside the workspace) for the user alone.<br>
   <img src="https://img.shields.io/github/last-commit/sjvrensburg/claude-muse-mentor?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/sjvrensburg/claude-muse-mentor?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/sjvrensburg/claude-muse-mentor?style=flat-square" alt="GitHub stars">
+
+- [Torpor for Muse Code](https://github.com/Kylne700/torpor-muse) - Muse Code hook tool that turns plain-language statements of what works into generated checks, runs them at the end of later turns, and reports failures to the agent before its turn ends so it can fix them in the same turn; built for the Meta Global AI Developer Hackathon.<br>
+  <img src="https://img.shields.io/github/last-commit/Kylne700/torpor-muse?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/Kylne700/torpor-muse?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/Kylne700/torpor-muse?style=flat-square" alt="GitHub stars">
 
 ## Clients & Editor Integrations
 
@@ -245,6 +251,9 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 - [Lascoria](https://github.com/kabudu/lascoria) - Spatial desktop workspace for Muse Code: a canvas map of parallel sessions and their tasks, with an attention queue for questions, approvals and failures, plus transcripts, diffs and test evidence. Built on the official Muse SDK with a Rust supervisor; local control only, with no remote server.<br>
   <img src="https://img.shields.io/github/last-commit/kabudu/lascoria?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/kabudu/lascoria?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/kabudu/lascoria?style=flat-square" alt="GitHub stars">
 
+- [Meta Betta](https://github.com/madazz01/meta-betta) - VS Code chat-panel companion for Muse Code that keeps a per-project memory folder so each session starts where the previous one left off; built during the Meta Global AI Developer Hackathon.<br>
+  <img src="https://img.shields.io/github/last-commit/madazz01/meta-betta?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/madazz01/meta-betta?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/madazz01/meta-betta?style=flat-square" alt="GitHub stars">
+
 ## SDK & Muse Session Protocol
 
 Libraries, protocol tooling, client examples, and integrations built on the [Muse Code SDK](https://github.com/meta-models/muse-code-sdk) or Muse Session Protocol (MSP).
@@ -259,6 +268,9 @@ Libraries, protocol tooling, client examples, and integrations built on the [Mus
 
 - [Muse Code issues from a headless MSP integration](https://github.com/relux-works/muse-issues) by [relux-works](https://github.com/relux-works) - Maintained field log of problems found while embedding `muse serve` as a headless, goal-driven backend: observed behavior per build, reproduction steps, what each issue blocks for a client, the workaround in use, and what would unblock it.<br>
   <img src="https://img.shields.io/github/last-commit/relux-works/muse-issues?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/relux-works/muse-issues?style=flat-square" alt="GitHub stars">
+
+- [muse-spark-go](https://github.com/Obedience-Corp/muse-spark-go) - Go SDK for running the Muse coding agent from Go: streams responses, manages persistent conversations, and handles permission requests and cancellation through the installed `muse` binary and Muse Session Protocol (MSP); requires Go 1.24+.<br>
+  <img src="https://img.shields.io/github/last-commit/Obedience-Corp/muse-spark-go?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/Obedience-Corp/muse-spark-go?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/Obedience-Corp/muse-spark-go?style=flat-square" alt="GitHub stars">
 
 ## Model Providers & Proxies
 
