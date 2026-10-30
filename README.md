@@ -272,6 +272,9 @@ Libraries, protocol tooling, client examples, and integrations built on the [Mus
 - [muse-spark-go](https://github.com/Obedience-Corp/muse-spark-go) - Go SDK for running the Muse coding agent from Go: streams responses, manages persistent conversations, and handles permission requests and cancellation through the installed `muse` binary and Muse Session Protocol (MSP); requires Go 1.24+.<br>
   <img src="https://img.shields.io/github/last-commit/Obedience-Corp/muse-spark-go?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/Obedience-Corp/muse-spark-go?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/Obedience-Corp/muse-spark-go?style=flat-square" alt="GitHub stars">
 
+- [pi-muse-subscription](https://github.com/jkeskikangas/pi-muse-subscription) - Pi provider that runs Meta's Muse models (Muse Spark, Muse Wonder) inside pi through the Muse Code SDK and a local `muse serve` host, using the user's own Muse Code subscription as the authenticated model transport while pi keeps its own agent loop and tools.<br>
+  <img src="https://img.shields.io/github/last-commit/jkeskikangas/pi-muse-subscription?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/jkeskikangas/pi-muse-subscription?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/jkeskikangas/pi-muse-subscription?style=flat-square" alt="GitHub stars">
+
 ## Model Providers & Proxies
 
 Adapters and local proxies that connect the Muse Code harness to alternative model providers. These tools may rely on unofficial compatibility surfaces, so review their security model and current Muse version support before use.
