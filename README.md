@@ -98,6 +98,12 @@ Installable Muse Code plugins and plugin collections. Prefer entries with clear 
 - [muse-supermemory](https://github.com/supermemoryai/muse-supermemory) - Muse Code plugin for persistent cross-session memory powered by Supermemory: injects past project context at session start through hooks and an MCP proxy, installable from the Supermemory marketplace; requires Muse Code 1.3+ with plugins enabled.<br>
   <img src="https://img.shields.io/github/last-commit/supermemoryai/muse-supermemory?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/supermemoryai/muse-supermemory?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/supermemoryai/muse-supermemory?style=flat-square" alt="GitHub stars">
 
+- [LitMuse](https://github.com/wjgoarxiv/litmuse) - Muse Code plugin installed via npm that gives sessions a plan-before-edit habit: a status card, automatic handoff notes, and checks of what was built, so the next session starts where the previous one stopped.<br>
+  <img src="https://img.shields.io/github/last-commit/wjgoarxiv/litmuse?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/wjgoarxiv/litmuse?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/wjgoarxiv/litmuse?style=flat-square" alt="GitHub stars">
+
+- [muse-flow](https://github.com/cbuntingde/muse-flow) - Compact skills framework for Muse Code that routes a request through six phased skills with review gates and decision records, installable from its own plugin marketplace.<br>
+  <img src="https://img.shields.io/github/last-commit/cbuntingde/muse-flow?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/cbuntingde/muse-flow?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/cbuntingde/muse-flow?style=flat-square" alt="GitHub stars">
+
 ## MCP Servers
 
 Model Context Protocol servers with documented Muse Code setup or a particularly strong fit for coding workflows. General-purpose MCP servers should be included only when the Muse-specific integration is clear.
@@ -254,6 +260,9 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 - [Meta Betta](https://github.com/madazz01/meta-betta) - VS Code chat-panel companion for Muse Code that keeps a per-project memory folder so each session starts where the previous one left off; built during the Meta Global AI Developer Hackathon.<br>
   <img src="https://img.shields.io/github/last-commit/madazz01/meta-betta?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/madazz01/meta-betta?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/madazz01/meta-betta?style=flat-square" alt="GitHub stars">
 
+- [muse-code-desktop](https://github.com/maceip/muse-code-desktop) - Native macOS desktop app for the Muse Code CLI with Safari integration, built as a Swift Xcode project.<br>
+  <img src="https://img.shields.io/github/last-commit/maceip/muse-code-desktop?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/maceip/muse-code-desktop?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/maceip/muse-code-desktop?style=flat-square" alt="GitHub stars">
+
 ## SDK & Muse Session Protocol
 
 Libraries, protocol tooling, client examples, and integrations built on the [Muse Code SDK](https://github.com/meta-models/muse-code-sdk) or Muse Session Protocol (MSP).
@@ -284,6 +293,9 @@ Adapters and local proxies that connect the Muse Code harness to alternative mod
 
 - [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) - OpenAI/Gemini/Claude/Codex-compatible proxy that wraps multiple coding-agent subscriptions behind a unified endpoint: Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, and Devin. Supports Muse Code accounts through Meta login and Meta Model API keys.<br>
   <img src="https://img.shields.io/github/last-commit/router-for-me/CLIProxyAPI?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/router-for-me/CLIProxyAPI?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/router-for-me/CLIProxyAPI?style=flat-square" alt="GitHub stars">
+
+- [muse-9router-bridge](https://github.com/leekyoung9x/muse-9router-bridge) - Two stdlib-only Python sidecars that route a Muse Code subscription key through 9router (or any OpenAI-compatible gateway), repairing Meta's 403 client_attestation_denied gate and degraded tool calls in flight without patching 9router itself.<br>
+  <img src="https://img.shields.io/github/last-commit/leekyoung9x/muse-9router-bridge?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/leekyoung9x/muse-9router-bridge?style=flat-square" alt="GitHub stars">
 
 ## Developer Tools
 
