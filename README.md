@@ -263,6 +263,9 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 - [muse-code-desktop](https://github.com/maceip/muse-code-desktop) - Native macOS desktop app for the Muse Code CLI with Safari integration, built as a Swift Xcode project.<br>
   <img src="https://img.shields.io/github/last-commit/maceip/muse-code-desktop?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/maceip/muse-code-desktop?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/maceip/muse-code-desktop?style=flat-square" alt="GitHub stars">
 
+- [Antares](https://github.com/Ald3b4r4n/antares) - Open-source VS Code and Antigravity editor interface for Muse Code that talks to the local `muse` binary over the official Muse Session Protocol (MSP), with streaming chat, tool cards, approvals, and permission modes.<br>
+  <img src="https://img.shields.io/github/last-commit/Ald3b4r4n/antares?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/Ald3b4r4n/antares?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/Ald3b4r4n/antares?style=flat-square" alt="GitHub stars">
+
 ## SDK & Muse Session Protocol
 
 Libraries, protocol tooling, client examples, and integrations built on the [Muse Code SDK](https://github.com/meta-models/muse-code-sdk) or Muse Session Protocol (MSP).
@@ -283,6 +286,9 @@ Libraries, protocol tooling, client examples, and integrations built on the [Mus
 
 - [pi-muse-subscription](https://github.com/jkeskikangas/pi-muse-subscription) - Pi provider that runs Meta's Muse models (Muse Spark, Muse Wonder) inside pi through the Muse Code SDK and a local `muse serve` host, using the user's own Muse Code subscription as the authenticated model transport while pi keeps its own agent loop and tools.<br>
   <img src="https://img.shields.io/github/last-commit/jkeskikangas/pi-muse-subscription?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/jkeskikangas/pi-muse-subscription?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/jkeskikangas/pi-muse-subscription?style=flat-square" alt="GitHub stars">
+
+- [hermes-muse-code-exec](https://github.com/pstarkgit/hermes-muse-code-exec) - Hermes provider that bills Muse Spark usage to a Muse Code subscription by driving the attested `muse` CLI (`muse serve` MSP turns with a `muse exec --json` fallback) instead of calling the Model API directly.<br>
+  <img src="https://img.shields.io/github/last-commit/pstarkgit/hermes-muse-code-exec?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/pstarkgit/hermes-muse-code-exec?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/pstarkgit/hermes-muse-code-exec?style=flat-square" alt="GitHub stars">
 
 ## Model Providers & Proxies
 
