@@ -148,6 +148,9 @@ Agent configurations, orchestration patterns, reusable workflows, and task-speci
 - [Torpor for Muse Code](https://github.com/Kylne700/torpor-muse) - Muse Code hook tool that turns plain-language statements of what works into generated checks, runs them at the end of later turns, and reports failures to the agent before its turn ends so it can fix them in the same turn; built for the Meta Global AI Developer Hackathon.<br>
   <img src="https://img.shields.io/github/last-commit/Kylne700/torpor-muse?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/Kylne700/torpor-muse?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/Kylne700/torpor-muse?style=flat-square" alt="GitHub stars">
 
+- [VisioPatch](https://github.com/yashvantatk/visiopatch) - Visual bug pipeline for Muse Code: renders buggy and fixed builds in a browser, segments the difference with SAM, diagnoses the root cause with Muse Wonder, generates failing-then-passing tests, and repairs through `muse exec` in isolated worktrees with gated verification; benchmarked on six Kaplay repro cases.<br>
+  <img src="https://img.shields.io/github/last-commit/yashvantatk/visiopatch?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/yashvantatk/visiopatch?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/yashvantatk/visiopatch?style=flat-square" alt="GitHub stars">
+
 ## Clients & Editor Integrations
 
 Desktop and web clients, editor extensions, ACP adapters, and other interfaces for working with Muse Code outside its default experience.
