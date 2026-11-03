@@ -269,6 +269,12 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 - [Antares](https://github.com/Ald3b4r4n/antares) - Open-source VS Code and Antigravity editor interface for Muse Code that talks to the local `muse` binary over the official Muse Session Protocol (MSP), with streaming chat, tool cards, approvals, and permission modes.<br>
   <img src="https://img.shields.io/github/last-commit/Ald3b4r4n/antares?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/Ald3b4r4n/antares?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/Ald3b4r4n/antares?style=flat-square" alt="GitHub stars">
 
+- [Manifest](https://github.com/shippopotamuslabs/manifest) - Desktop harness for Muse Code built with Rust and Iced: drives Muse sessions through the bundled muse-code-mcp server and renders each turn as a live stream, with approvals and questions presented as first-class UI. Independent project, unaffiliated with Meta.<br>
+  <img src="https://img.shields.io/github/last-commit/shippopotamuslabs/manifest?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/shippopotamuslabs/manifest?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/shippopotamuslabs/manifest?style=flat-square" alt="GitHub stars">
+
+- [magpie-muse-bridge](https://github.com/DylanLIiii/magpie-muse-bridge) - Magpie provider plugin that serves a Muse Code subscription through the real `muse` CLI instead of impersonating it: each turn runs one `muse exec --json` process with resumed sessions, and client tools reach Muse through a stdio MCP server, so Meta sees the CLI's own sign-in. Tested with muse 1.4.13 and magpie 0.1.1734.<br>
+  <img src="https://img.shields.io/github/last-commit/DylanLIiii/magpie-muse-bridge?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/DylanLIiii/magpie-muse-bridge?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/DylanLIiii/magpie-muse-bridge?style=flat-square" alt="GitHub stars">
+
 ## SDK & Muse Session Protocol
 
 Libraries, protocol tooling, client examples, and integrations built on the [Muse Code SDK](https://github.com/meta-models/muse-code-sdk) or Muse Session Protocol (MSP).
@@ -341,6 +347,9 @@ Tools for finding, inspecting, organizing, and moving coding-agent sessions.
 
 - [aonia](https://github.com/HarjjotSinghh/aonia) - Named profiles for the Muse Code CLI: keep multiple logins on one machine, run two of them at once, and let a project pick which profile it uses.<br>
   <img src="https://img.shields.io/github/last-commit/HarjjotSinghh/aonia?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/HarjjotSinghh/aonia?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/HarjjotSinghh/aonia?style=flat-square" alt="GitHub stars">
+
+- [Muse History Sidebar](https://github.com/Great-us/muse-history-sidebar) - Unofficial community VS Code extension for browsing and managing local Muse Code conversation history by workspace folder, with title and path search, paginated read-only previews, archive management, and recoverable removal; validated with Muse Code 1.4.14 on Windows x64.<br>
+  <img src="https://img.shields.io/github/last-commit/Great-us/muse-history-sidebar?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/Great-us/muse-history-sidebar?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/Great-us/muse-history-sidebar?style=flat-square" alt="GitHub stars">
 
 ### Sandboxing & Security
 
