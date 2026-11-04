@@ -275,6 +275,9 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 - [magpie-muse-bridge](https://github.com/DylanLIiii/magpie-muse-bridge) - Magpie provider plugin that serves a Muse Code subscription through the real `muse` CLI instead of impersonating it: each turn runs one `muse exec --json` process with resumed sessions, and client tools reach Muse through a stdio MCP server, so Meta sees the CLI's own sign-in. Tested with muse 1.4.13 and magpie 0.1.1734.<br>
   <img src="https://img.shields.io/github/last-commit/DylanLIiii/magpie-muse-bridge?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/DylanLIiii/magpie-muse-bridge?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/DylanLIiii/magpie-muse-bridge?style=flat-square" alt="GitHub stars">
 
+- [muse](https://github.com/ErOr-0/muse) - Wails v2 desktop coding-agent harness that drives a Muse Code subscription through the official `muse` CLI (`muse exec --json` with resumed sessions), with streaming tokens, tool-call cards, diff previews, and approve/deny prompts; it explicitly never reads, mints, or stores the CLI credential. Also supports any OpenAI-compatible endpoint via API key.<br>
+  <img src="https://img.shields.io/github/last-commit/ErOr-0/muse?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/ErOr-0/muse?style=flat-square" alt="GitHub stars">
+
 ## SDK & Muse Session Protocol
 
 Libraries, protocol tooling, client examples, and integrations built on the [Muse Code SDK](https://github.com/meta-models/muse-code-sdk) or Muse Session Protocol (MSP).
