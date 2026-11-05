@@ -103,6 +103,8 @@ Installable Muse Code plugins and plugin collections. Prefer entries with clear 
 
 - [muse-flow](https://github.com/cbuntingde/muse-flow) - Compact skills framework for Muse Code that routes a request through six phased skills with review gates and decision records, installable from its own plugin marketplace.<br>
   <img src="https://img.shields.io/github/last-commit/cbuntingde/muse-flow?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/cbuntingde/muse-flow?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/cbuntingde/muse-flow?style=flat-square" alt="GitHub stars">
+- [Bypass](https://github.com/Bypass-Labs/bypass) - Native Muse Code plugin and standalone CLI for security testing: Muse Code investigates source code and running apps while Bypass enforces approved scope, records evidence, and turns supported proofs into repeatable security tests; the CLI can also run against the Meta Model API or a self-hosted Muse Spark Open / Muse Glimmer endpoint. Built for the Startup Track of the Meta Global AI Developer Hackathon.<br>
+  <img src="https://img.shields.io/github/last-commit/Bypass-Labs/bypass?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/Bypass-Labs/bypass?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/Bypass-Labs/bypass?style=flat-square" alt="GitHub stars">
 
 ## MCP Servers
 
@@ -150,6 +152,8 @@ Agent configurations, orchestration patterns, reusable workflows, and task-speci
 
 - [VisioPatch](https://github.com/yashvantatk/visiopatch) - Visual bug pipeline for Muse Code: renders buggy and fixed builds in a browser, segments the difference with SAM, diagnoses the root cause with Muse Wonder, generates failing-then-passing tests, and repairs through `muse exec` in isolated worktrees with gated verification; benchmarked on six Kaplay repro cases.<br>
   <img src="https://img.shields.io/github/last-commit/yashvantatk/visiopatch?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/yashvantatk/visiopatch?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/yashvantatk/visiopatch?style=flat-square" alt="GitHub stars">
+- [muse-lanes](https://github.com/alexanderradahl/muse-lanes) - Claude Code plugin that runs Meta's Muse CLI (`muse exec`) agents as supervised background lanes: a detached supervisor runs each lane to completion with retries, runs an acceptance command, and wakes the originating session once with a summary.<br>
+  <img src="https://img.shields.io/github/last-commit/alexanderradahl/muse-lanes?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/alexanderradahl/muse-lanes?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/alexanderradahl/muse-lanes?style=flat-square" alt="GitHub stars">
 
 ## Clients & Editor Integrations
 
@@ -277,6 +281,8 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 
 - [muse](https://github.com/ErOr-0/muse) - Wails v2 desktop coding-agent harness that drives a Muse Code subscription through the official `muse` CLI (`muse exec --json` with resumed sessions), with streaming tokens, tool-call cards, diff previews, and approve/deny prompts; it explicitly never reads, mints, or stores the CLI credential. Also supports any OpenAI-compatible endpoint via API key.<br>
   <img src="https://img.shields.io/github/last-commit/ErOr-0/muse?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/ErOr-0/muse?style=flat-square" alt="GitHub stars">
+- [routeros-muse](https://github.com/tikoci/routeros-muse) - RouterOS network workspace and web UI that puts a Muse agent beside your network: chat with the agent, watch its tool calls against real routers, and test changes on disposable CHR twins before touching production devices. Started as a hackathon demo; now a preview owner tool.<br>
+  <img src="https://img.shields.io/github/last-commit/tikoci/routeros-muse?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/tikoci/routeros-muse?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/tikoci/routeros-muse?style=flat-square" alt="GitHub stars">
 
 ## SDK & Muse Session Protocol
 
