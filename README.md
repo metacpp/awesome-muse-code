@@ -407,6 +407,9 @@ High-quality walkthroughs, reference projects, videos, articles, and starter kit
 - [Coding Workers (Hermes + 9Router)](https://github.com/leekyoung9x/coding-workers-docs) - Community documentation for a Discord-driven orchestrator that fans work out to dedicated coding-agent CLIs, including the Muse Code CLI via `muse-shim` on 9Router/OpenRouter, with per-agent skills and MCP tool sets. Written in Vietnamese.<br>
   <img src="https://img.shields.io/github/last-commit/leekyoung9x/coding-workers-docs?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/leekyoung9x/coding-workers-docs?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/leekyoung9x/coding-workers-docs?style=flat-square" alt="GitHub stars">
 
+- [Legal Agent Workshop](https://github.com/meta-models/legal-agent-workshop) - Official Meta workshop for building a trustworthy legal agent with Muse Code: two working sessions that first build the agentic loop in plain Python, then add a verification layer with checklist checks, refusal and escalation handling, and attorney sign-off, plus a live Agent Console UI.<br>
+  <img src="https://img.shields.io/github/last-commit/meta-models/legal-agent-workshop?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/meta-models/legal-agent-workshop?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/meta-models/legal-agent-workshop?style=flat-square" alt="GitHub stars">
+
 ## Contributing
 
 Pull requests are welcome. A good addition should be directly useful to Muse Code users, publicly accessible, clearly documented, and placed in the most specific category that fits.
