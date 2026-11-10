@@ -366,6 +366,9 @@ Tools for finding, inspecting, organizing, and moving coding-agent sessions.
 - [Muse History Sidebar](https://github.com/Great-us/muse-history-sidebar) - Unofficial community VS Code extension for browsing and managing local Muse Code conversation history by workspace folder, with title and path search, paginated read-only previews, archive management, and recoverable removal; validated with Muse Code 1.4.14 on Windows x64.<br>
   <img src="https://img.shields.io/github/last-commit/Great-us/muse-history-sidebar?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/Great-us/muse-history-sidebar?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/Great-us/muse-history-sidebar?style=flat-square" alt="GitHub stars">
 
+- [muse-bridge](https://github.com/clrke/muse-bridge) - HTTP + SSE server that drives Muse Code sessions per project: a client sends a message, the bridge runs a one-shot `muse exec --json` turn in that project's directory and streams back tool calls, subagent events, and the final reply, resuming each project under a stable session id. Loopback by default with token-gated LAN pairing for headsets; sessions run with actions pre-approved, so anything that can reach the bridge can run shell commands as the user.<br>
+  <img src="https://img.shields.io/github/last-commit/clrke/muse-bridge?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/clrke/muse-bridge?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/clrke/muse-bridge?style=flat-square" alt="GitHub stars">
+
 ### Sandboxing & Security
 
 Sandbox runners, permission and policy tools, audit utilities, and secure deployment patterns for agent-generated code and tool calls.
