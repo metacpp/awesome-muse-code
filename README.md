@@ -106,6 +106,9 @@ Installable Muse Code plugins and plugin collections. Prefer entries with clear 
 - [Bypass](https://github.com/Bypass-Labs/bypass) - Native Muse Code plugin and standalone CLI for security testing: Muse Code investigates source code and running apps while Bypass enforces approved scope, records evidence, and turns supported proofs into repeatable security tests; the CLI can also run against the Meta Model API or a self-hosted Muse Spark Open / Muse Glimmer endpoint. Built for the Startup Track of the Meta Global AI Developer Hackathon.<br>
   <img src="https://img.shields.io/github/last-commit/Bypass-Labs/bypass?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/Bypass-Labs/bypass?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/Bypass-Labs/bypass?style=flat-square" alt="GitHub stars">
 
+- [muse-maestro](https://github.com/dirtysouthalpha/muse-maestro) - Seven native Muse Code plugins that add a safety floor to unattended (`--yolo`) sessions: guardrails against destructive commands, proof-before-done checks, a context-window watch, session memory, secret hygiene, and token/cost telemetry; fail-open by design and verified against Muse Code 1.3.0.<br>
+  <img src="https://img.shields.io/github/last-commit/dirtysouthalpha/muse-maestro?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/dirtysouthalpha/muse-maestro?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/dirtysouthalpha/muse-maestro?style=flat-square" alt="GitHub stars">
+
 ## MCP Servers
 
 Model Context Protocol servers with documented Muse Code setup or a particularly strong fit for coding workflows. General-purpose MCP servers should be included only when the Muse-specific integration is clear.
