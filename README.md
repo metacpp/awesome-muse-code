@@ -292,6 +292,8 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
   <img src="https://img.shields.io/github/last-commit/ErOr-0/muse?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/ErOr-0/muse?style=flat-square" alt="GitHub stars">
 - [routeros-muse](https://github.com/tikoci/routeros-muse) - RouterOS network workspace and web UI that puts a Muse agent beside your network: chat with the agent, watch its tool calls against real routers, and test changes on disposable CHR twins before touching production devices. Started as a hackathon demo; now a preview owner tool.<br>
   <img src="https://img.shields.io/github/last-commit/tikoci/routeros-muse?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/tikoci/routeros-muse?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/tikoci/routeros-muse?style=flat-square" alt="GitHub stars">
+- [Pohunek runtime plugin for Muse Code](https://github.com/pohunekd/plugin-muse-code) - Runtime plugin that lets the Pohunek agent runtime launch, track, resume, and attribute transcripts for Meta's Muse Code CLI, with detection rules, recorded terminal captures, and smoke tests verified against Muse Code 1.4.14; handlers live in the Pohunek core repository.<br>
+  <img src="https://img.shields.io/github/last-commit/pohunekd/plugin-muse-code?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/pohunekd/plugin-muse-code?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/pohunekd/plugin-muse-code?style=flat-square" alt="GitHub stars">
 
 ## SDK & Muse Session Protocol
 
