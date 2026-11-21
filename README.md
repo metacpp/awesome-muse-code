@@ -295,6 +295,12 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 - [Pohunek runtime plugin for Muse Code](https://github.com/pohunekd/plugin-muse-code) - Runtime plugin that lets the Pohunek agent runtime launch, track, resume, and attribute transcripts for Meta's Muse Code CLI, with detection rules, recorded terminal captures, and smoke tests verified against Muse Code 1.4.14; handlers live in the Pohunek core repository.<br>
   <img src="https://img.shields.io/github/last-commit/pohunekd/plugin-muse-code?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/pohunekd/plugin-muse-code?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/pohunekd/plugin-muse-code?style=flat-square" alt="GitHub stars">
 
+- [Muse CLI GUI](https://github.com/yourbossdonpely/musecligui) - HTML GUI that drives Meta Muse Code through the official `muse` CLI: live-streamed agent runs, per-run permission controls, real skills, models, and usage from the CLI, and an OpenAI-compatible API so OpenCode or FreeBuff can drive the same subscription.<br>
+  <img src="https://img.shields.io/github/last-commit/yourbossdonpely/musecligui?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/yourbossdonpely/musecligui?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/yourbossdonpely/musecligui?style=flat-square" alt="GitHub stars">
+
+- [Vicuna plugin: Muse harness](https://github.com/anslwy/vicuna-plugin-muse) - Vicuna plugin that adds the Muse coding agent as a Work harness, driving `muse acp` over the Agent Client Protocol with a usage meter backed by `muse usage --json`.<br>
+  <img src="https://img.shields.io/github/last-commit/anslwy/vicuna-plugin-muse?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/anslwy/vicuna-plugin-muse?style=flat-square" alt="GitHub stars">
+
 ## SDK & Muse Session Protocol
 
 Libraries, protocol tooling, client examples, and integrations built on the [Muse Code SDK](https://github.com/meta-models/muse-code-sdk) or Muse Session Protocol (MSP).
@@ -429,6 +435,8 @@ High-quality walkthroughs, reference projects, videos, articles, and starter kit
 
 - [Legal Agent Workshop](https://github.com/meta-models/legal-agent-workshop) - Official Meta workshop for building a trustworthy legal agent with Muse Code: two working sessions that first build the agentic loop in plain Python, then add a verification layer with checklist checks, refusal and escalation handling, and attorney sign-off, plus a live Agent Console UI.<br>
   <img src="https://img.shields.io/github/last-commit/meta-models/legal-agent-workshop?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/meta-models/legal-agent-workshop?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/meta-models/legal-agent-workshop?style=flat-square" alt="GitHub stars">
+
+- [Build 3D models with Muse Code](https://dev.meta.ai/resources/blog/build-3d-models-with-muse-code) - Official Meta blog post on Muse Code's built-in 3D model generation: text or image prompts become textured GLB meshes for games, 3D printing, or scene visualization, within the subscription allowance.
 
 ## Contributing
 
