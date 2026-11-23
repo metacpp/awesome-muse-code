@@ -158,6 +158,9 @@ Agent configurations, orchestration patterns, reusable workflows, and task-speci
 - [muse-lanes](https://github.com/alexanderradahl/muse-lanes) - Claude Code plugin that runs Meta's Muse CLI (`muse exec`) agents as supervised background lanes: a detached supervisor runs each lane to completion with retries, runs an acceptance command, and wakes the originating session once with a summary.<br>
   <img src="https://img.shields.io/github/last-commit/alexanderradahl/muse-lanes?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/alexanderradahl/muse-lanes?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/alexanderradahl/muse-lanes?style=flat-square" alt="GitHub stars">
 
+- [delegate-to-muse](https://github.com/troioi-vn/muse-skill) - Claude Code skill for handing repository work to Muse Code: Claude picks the task, writes the handoff prompt, and reviews the diff, while Muse implements and runs the tests, with checks for workspace trust, session IDs, and tests that pass by construction.<br>
+  <img src="https://img.shields.io/github/last-commit/troioi-vn/muse-skill?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/troioi-vn/muse-skill?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/troioi-vn/muse-skill?style=flat-square" alt="GitHub stars">
+
 ## Clients & Editor Integrations
 
 Desktop and web clients, editor extensions, ACP adapters, and other interfaces for working with Muse Code outside its default experience.
