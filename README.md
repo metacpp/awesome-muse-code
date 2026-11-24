@@ -161,6 +161,9 @@ Agent configurations, orchestration patterns, reusable workflows, and task-speci
 - [delegate-to-muse](https://github.com/troioi-vn/muse-skill) - Claude Code skill for handing repository work to Muse Code: Claude picks the task, writes the handoff prompt, and reviews the diff, while Muse implements and runs the tests, with checks for workspace trust, session IDs, and tests that pass by construction.<br>
   <img src="https://img.shields.io/github/last-commit/troioi-vn/muse-skill?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/troioi-vn/muse-skill?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/troioi-vn/muse-skill?style=flat-square" alt="GitHub stars">
 
+- [muse-squad](https://github.com/tenantegroup/muse-squad) - Named squad members, slash commands, and a self-hosted MCP server for Muse Code: one TOML file defines providers and squad members, every generation or review call is scoped to a named member, and nothing is marked done until a verification gate passes.<br>
+  <img src="https://img.shields.io/github/last-commit/tenantegroup/muse-squad?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/tenantegroup/muse-squad?style=flat-square" alt="GitHub stars">
+
 ## Clients & Editor Integrations
 
 Desktop and web clients, editor extensions, ACP adapters, and other interfaces for working with Muse Code outside its default experience.
@@ -303,6 +306,9 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 
 - [Vicuna plugin: Muse harness](https://github.com/anslwy/vicuna-plugin-muse) - Vicuna plugin that adds the Muse coding agent as a Work harness, driving `muse acp` over the Agent Client Protocol with a usage meter backed by `muse usage --json`.<br>
   <img src="https://img.shields.io/github/last-commit/anslwy/vicuna-plugin-muse?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/anslwy/vicuna-plugin-muse?style=flat-square" alt="GitHub stars">
+
+- [Muse Code Chat (Unofficial)](https://github.com/AnointingPaschal/muse-code-extension) - Unofficial VS Code chat panel for Muse Code that drives the installed `muse` CLI under the user's own `muse login`, with no connection to the Muse personal assistant at muse.ai.<br>
+  <img src="https://img.shields.io/github/last-commit/AnointingPaschal/muse-code-extension?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/AnointingPaschal/muse-code-extension?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/AnointingPaschal/muse-code-extension?style=flat-square" alt="GitHub stars">
 
 ## SDK & Muse Session Protocol
 
