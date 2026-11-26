@@ -304,6 +304,9 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 - [Muse CLI GUI](https://github.com/yourbossdonpely/musecligui) - HTML GUI that drives Meta Muse Code through the official `muse` CLI: live-streamed agent runs, per-run permission controls, real skills, models, and usage from the CLI, and an OpenAI-compatible API so OpenCode or FreeBuff can drive the same subscription.<br>
   <img src="https://img.shields.io/github/last-commit/yourbossdonpely/musecligui?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/yourbossdonpely/musecligui?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/yourbossdonpely/musecligui?style=flat-square" alt="GitHub stars">
 
+- [muse-gui-windows](https://github.com/EulogiaKoine/muse-gui-windows) - Local browser chat GUI for the Muse Code CLI on Windows: runs `muse` in WSL2 behind a Python-stdlib relay server and serves the chat UI to the Windows browser, with bundled KaTeX and no external CDN.<br>
+  <img src="https://img.shields.io/github/last-commit/EulogiaKoine/muse-gui-windows?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/EulogiaKoine/muse-gui-windows?style=flat-square" alt="GitHub stars">
+
 - [Vicuna plugin: Muse harness](https://github.com/anslwy/vicuna-plugin-muse) - Vicuna plugin that adds the Muse coding agent as a Work harness, driving `muse acp` over the Agent Client Protocol with a usage meter backed by `muse usage --json`.<br>
   <img src="https://img.shields.io/github/last-commit/anslwy/vicuna-plugin-muse?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/stars/anslwy/vicuna-plugin-muse?style=flat-square" alt="GitHub stars">
 
