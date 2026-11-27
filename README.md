@@ -313,6 +313,9 @@ Desktop and web clients, editor extensions, ACP adapters, and other interfaces f
 - [Muse Code Chat (Unofficial)](https://github.com/AnointingPaschal/muse-code-extension) - Unofficial VS Code chat panel for Muse Code that drives the installed `muse` CLI under the user's own `muse login`, with no connection to the Muse personal assistant at muse.ai.<br>
   <img src="https://img.shields.io/github/last-commit/AnointingPaschal/muse-code-extension?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/AnointingPaschal/muse-code-extension?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/AnointingPaschal/muse-code-extension?style=flat-square" alt="GitHub stars">
 
+- [MuseCodeIcon](https://github.com/yourbossdonpely/musecodeicon) - Free, MIT-licensed desktop GUI for Meta's Muse Code CLI: agentic coding threads, approvals, inline diffs and usage meters in a Tauri window on Windows, macOS and Linux, driving the official `muse` CLI via `muse serve`, with scheduled prompts, skill routing, an MCP manager, review passes and rollback.<br>
+  <img src="https://img.shields.io/github/last-commit/yourbossdonpely/musecodeicon?style=flat-square" alt="Last commit"> <img src="https://img.shields.io/github/license/yourbossdonpely/musecodeicon?style=flat-square" alt="License"> <img src="https://img.shields.io/github/stars/yourbossdonpely/musecodeicon?style=flat-square" alt="GitHub stars">
+
 ## SDK & Muse Session Protocol
 
 Libraries, protocol tooling, client examples, and integrations built on the [Muse Code SDK](https://github.com/meta-models/muse-code-sdk) or Muse Session Protocol (MSP).
